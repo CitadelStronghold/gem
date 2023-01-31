@@ -12,8 +12,8 @@ jobs:
 
       - name: Docker
         run: |
-          docker run -t -d --name arch -v "$(pwd)":/mnt:ro archlinux:latest
+          docker run -t -d --name arch -v "$(pwd)":/app:ro archlinux:latest
           docker exec arch pacman-key --init
           docker exec arch pacman -Syu --noconfirm
 
-          docker exec arch ls -la /mnt
+          docker exec arch ls -la /app
