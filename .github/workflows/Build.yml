@@ -12,3 +12,5 @@ jobs:
 
       - run: docker run archlinux
       - run: docker exec archlinux echo a
+      - run: docker exec archlinux echo _ > a.txt
+      - run: docker exec archlinux cat a.txt
