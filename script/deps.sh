@@ -1,3 +1,3 @@
 #!/bin/bash
 
-sudo pacman -S archiso
+pacman -S archiso
