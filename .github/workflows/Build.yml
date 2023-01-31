@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 120
     steps:
-      - run: docker info
+      - run: docker --version
 
       - name: Docker
         run: |
