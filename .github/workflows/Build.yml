@@ -9,4 +9,4 @@ jobs:
     timeout-minutes: 120
     steps:
       - name: Docker
-        run: echo docker
+        run: sudo apt install -y docker
