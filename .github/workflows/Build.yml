@@ -10,7 +10,5 @@ jobs:
     steps:
       - run: docker info
 
-      - run: docker run archlinux
-      - run: docker exec archlinux echo a
-      - run: docker exec archlinux echo _ > a.txt
-      - run: docker exec archlinux cat a.txt
+      - run: docker run -d archlinux > run.info
+      - run: docker exec $(cat run.info) ls -a
