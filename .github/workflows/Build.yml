@@ -10,5 +10,5 @@ jobs:
     steps:
       - run: docker info
 
-      - name: Build
-        run: docker run --rm archlinux echo test
+      - run: docker run --rm archlinux touch a.txt
+      - run: docker run --rm archlinux ls -a
