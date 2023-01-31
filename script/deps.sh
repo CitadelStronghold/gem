@@ -1,3 +1,3 @@
 #!/bin/bash
 
-pacman -S archiso
+pacman -S archiso --noconfirm
