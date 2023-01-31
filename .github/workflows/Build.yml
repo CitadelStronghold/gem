@@ -13,4 +13,4 @@ jobs:
       - name: Docker
         run: |
           docker run -t -d --name arch archlinux
-          docker exec arch pacman -Syu
+          docker exec arch pacman -Syu --noconfirm
