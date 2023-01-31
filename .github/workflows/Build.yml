@@ -17,3 +17,6 @@ jobs:
           docker exec arch pacman -Syu --noconfirm
 
           docker exec arch ls -la /gem
+
+          docker exec arch bash /gem/script/deps.sh
+          docker exec arch bash /gem/script/build.sh
