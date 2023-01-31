@@ -12,7 +12,7 @@ jobs:
 
       - name: Build
         run: |
-          docker run -t -d --name arch -v "$(pwd)":/gem:ro --privileged archlinux:latest
+          docker run -t -d --name arch -v "$(pwd)":/gem:rw --privileged archlinux:latest
           docker exec arch pacman-key --init
           docker exec arch pacman -Syu --noconfirm
 
