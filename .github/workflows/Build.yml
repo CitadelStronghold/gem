@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Docker
+      - name: Build
         run: |
           docker run -t -d --name arch -v "$(pwd)":/gem:ro archlinux:latest
           docker exec arch pacman-key --init
