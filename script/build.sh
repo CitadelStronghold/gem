@@ -2,7 +2,7 @@
 
 PROFILE_PATH="/usr/share/archiso/configs/releng"
 
-mkdir -p build
-mkdir -p bin
+mkdir -p "$(pwd)"/build
+mkdir -p "$(pwd)"/bin
 
-mkarchiso -v -w build -o bin $PROFILE_PATH
+mkarchiso -v -w "$(pwd)"/build -o "$(pwd)"/bin $PROFILE_PATH
