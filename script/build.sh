@@ -10,5 +10,5 @@ mkdir -p "$(pwd)"/bin
 mkarchiso -v -w "$(pwd)"/build -o "$(pwd)"/bin $PROFILE_PATH
 
 if [[ -d "/gem" ]]; then
-    cp -r /root/*.iso /gem
+    cp -r /root/bin/*.iso /gem
 fi
