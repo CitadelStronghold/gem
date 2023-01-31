@@ -12,6 +12,5 @@ jobs:
 
       - name: Docker
         run: |
-          docker run archlinux > run.info
-          docker start -d $(cat run.info)
-          docker exec $(cat run.info) ls -a
+          docker run -t -d --name arch archlinux
+          docker exec -it arch echo a
