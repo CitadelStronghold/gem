@@ -11,4 +11,4 @@ jobs:
       - run: docker info
 
       - name: Build
-        run: docker run --rm archlinux
+        run: docker run --rm archlinux echo test
