@@ -11,4 +11,4 @@ jobs:
       - run: docker info
 
       - run: docker run archlinux
-      - run: docker exec echo a
+      - run: docker exec archlinux echo a
