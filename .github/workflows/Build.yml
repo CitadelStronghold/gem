@@ -13,4 +13,4 @@ jobs:
       - name: Docker
         run: |
           docker run -t -d --name arch archlinux
-          docker exec -it arch echo a
+          docker exec arch echo a
