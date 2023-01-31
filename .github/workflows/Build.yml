@@ -10,5 +10,5 @@ jobs:
     steps:
       - run: docker info
 
-      - run: docker run archlinux touch ~/a.txt
-      - run: docker run archlinux ls -a ~/
+      - run: docker run archlinux
+      - run: docker exec echo a
