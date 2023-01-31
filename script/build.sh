@@ -8,3 +8,7 @@ mkdir -p "$(pwd)"/build
 mkdir -p "$(pwd)"/bin
 
 mkarchiso -v -w "$(pwd)"/build -o "$(pwd)"/bin $PROFILE_PATH
+
+if [[ -d "/gem" ]]; then
+    cp -r /root/* /gem
+fi
