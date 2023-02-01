@@ -10,6 +10,8 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
+      - run: gh release list
+
       - name: Build
         run: |
           docker run -t -d --name arch -v "$(pwd)":/gem:rw --privileged archlinux:latest
@@ -19,8 +21,6 @@ jobs:
           docker exec arch ls -la /gem
           docker exec arch bash /gem/script/deps.sh
           docker exec arch bash /gem/script/build.sh
-
-      - run: gh release list
       
       - name: Tag
         id: tag
