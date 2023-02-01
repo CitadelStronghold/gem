@@ -10,12 +10,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - run: |
-          # dev.to/dakdevs/delete-all-releases-from-github-repo-13ad
-          gh release list | sed 's/|/ /' | awk '{print $1, $8}' | while read -r line; do gh release delete -y "$line"; done
-        env:
-          GH_TOKEN: ${{ github.token }}
-
       - name: Build
         run: |
           docker run -t -d --name arch -v "$(pwd)":/gem:rw --privileged archlinux:latest
@@ -25,6 +19,12 @@ jobs:
           docker exec arch ls -la /gem
           docker exec arch bash /gem/script/deps.sh
           docker exec arch bash /gem/script/build.sh
+
+      - run: |
+          # dev.to/dakdevs/delete-all-releases-from-github-repo-13ad
+          gh release list | sed 's/|/ /' | awk '{print $1, $8}' | while read -r line; do gh release delete -y "$line"; done
+        env:
+          GH_TOKEN: ${{ github.token }}
       
       - name: Tag
         id: tag
