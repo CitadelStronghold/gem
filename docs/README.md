@@ -16,11 +16,11 @@ Extra functionality is then added through the use of scripts available in the `/
 ## Usage
 
 > bash /opt/gem/update.sh
-- Update all scripts via [the git repository](https://github.com/GeodeGames/gem-setup)
+- Update all scripts via [the git repository](https://github.com/GeodeGames/gem-scripts)
 
 ## [Releases](https://github.com/GeodeGames/gem/releases)
 The only supported architecture at present is `x86_64`.
 
 ## Submodules
-- [gem-setup](https://github.com/GeodeGames/gem-setup)
-    - `gem-setup` is copied to `/opt/gem`
+- [gem-scripts](https://github.com/GeodeGames/gem-scripts)
+    - `gem-scripts` is copied to `/opt/gem`

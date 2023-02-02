@@ -1,3 +1,3 @@
-[submodule "gem-setup"]
+[submodule "gem-scripts"]
 	path = gem-scripts
-	url = https://github.com/GeodeGames/gem-setup
+	url = https://github.com/GeodeGames/gem-scripts
