@@ -5,6 +5,8 @@ GEM_FILES_PATH="${1:-./files}"
 TEMPLATE_PATH="/usr/share/archiso/configs/releng"
 PROFILE_PATH="/root/gemlive"
 
+echo "[gem] [prepare]"
+
 cp -r $TEMPLATE_PATH $PROFILE_PATH
 cp -r $GEM_FILES_PATH/* $PROFILE_PATH/airootfs
 
@@ -12,6 +14,8 @@ cd /root
 
 mkdir -p "$(pwd)"/build
 mkdir -p "$(pwd)"/bin
+
+echo "[gem] [build]"
 
 mkarchiso -v -w "$(pwd)"/build -o "$(pwd)"/bin $PROFILE_PATH
 
