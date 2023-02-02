@@ -6,6 +6,7 @@ Gem is an Arch Linux ISO distribution with convenient configuration scripts.
 1. Download the iso from the releases
 2. Boot it somehow
 3. Follow [Setup.md](Setup.md)
+4. Follow [Gem Installation Instructions](Setup.md#gem)
 
 ## [Releases](https://github.com/GeodeGames/gem/releases)
 The only supported architecture at present is `x86_64`.

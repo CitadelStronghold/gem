@@ -241,4 +241,6 @@
 > pacman -S intel-ucode
 - Pick one of the above lines
 
+## Gem Installation
+
 > reboot
