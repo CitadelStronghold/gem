@@ -22,7 +22,7 @@ jobs:
 
           docker exec arch pacman -S --noconfirm sudo
 
-          docker exec arch cp -rf mkdir -p /opt/gem
+          docker exec arch mkdir -p /opt/gem
           docker exec arch cp -rf /gem /opt/gem
 
           docker exec arch /gem/gem-scripts/bin/gem install /
