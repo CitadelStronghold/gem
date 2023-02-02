@@ -13,6 +13,7 @@ Extra functionality is then added through the use of the `gem` command.
 3. Install Arch Linux + Gem
     1. [Guide](Setup.md)
     2. [Gem Installation Instructions](Setup.md#gem)
+4. Use the `gem` command as described below
 
 ## Philosophy
 
