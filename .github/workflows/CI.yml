@@ -28,7 +28,8 @@ jobs:
 
           docker exec arch gem
 
-          docker exec arch find /opt/gem/gems -type f -exec gem s "$(echo {} | cut -d '/' -f 3)" \;
+          docker exec arch find /opt/gem/gems -type f -exec bash {} \;
+          docker exec arch find /opt/gem/gems -type f -exec bash {} r \;
 
   build:
     runs-on: ubuntu-latest
