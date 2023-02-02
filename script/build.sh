@@ -10,6 +10,8 @@ echo "[gem] [prepare]"
 cp -r $TEMPLATE_PATH $PROFILE_PATH
 cp -r $GEM_FILES_PATH/* $PROFILE_PATH/airootfs
 
+git clone https://github.com/GeodeGames/gem-setup.git $PROFILE_PATH/opt/gem
+
 cd /root
 
 mkdir -p "$(pwd)"/build
