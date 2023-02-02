@@ -6,9 +6,26 @@ on:
 concurrency: gem
 
 jobs:
+  tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          submodules: 'recursive'
+
+      - name: Build
+        run: |
+          docker run -t -d --name arch -v "$(pwd)":/gem:rw --privileged archlinux:latest
+          docker exec arch pacman-key --init
+          docker exec arch pacman -Syu --noconfirm
+
+          docker exec arch ./opt/gem/bin/gem
+
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 240
+    timeout-minutes: 60
+    needs: tests
     steps:
       - uses: actions/checkout@v3
         with:
