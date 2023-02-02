@@ -84,7 +84,7 @@
 - You see two entries: `/`, `/home`
 
 ## Gem
-> bash /opt/gem.sh /mnt
+> bash /opt/gem/gem.sh /mnt
 - Installs [gem](https://github.com/GeodeGames/gem) scripts into `/mnt/opt/gem`
 
 ## Pacstrap
