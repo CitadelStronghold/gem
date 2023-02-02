@@ -26,6 +26,7 @@ Extra functionality is then added through the use of scripts available in the `/
 > > **bash /opt/gem/gem.sh \<folder\>**
 >
 > > Copies `/opt/gem` into `<folder>`
+> >
 > > Used during [installation](Setup.md#gem)
 
 > > **bash /opt/gem/update.sh**
