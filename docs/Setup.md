@@ -178,7 +178,7 @@
 > exit
 
 > umount -a
-- Errors here are fine
+- Errors are normal here
 
 ---
 
