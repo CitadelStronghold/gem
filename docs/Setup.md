@@ -88,7 +88,7 @@
 
 ## Gem
 > bash /opt/gem.sh /mnt
-- Install gem scripts into `/mnt/opt/gem`
+- Installs gem scripts into `/mnt/opt/gem`
 
 ## Base Packages
 > arch-chroot /mnt
