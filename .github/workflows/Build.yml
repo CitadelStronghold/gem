@@ -11,6 +11,8 @@ jobs:
     timeout-minutes: 240
     steps:
       - uses: actions/checkout@v3
+        with:
+          submodules: 'recursive'
 
       - name: Build
         run: |
