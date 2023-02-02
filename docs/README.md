@@ -21,7 +21,7 @@ Extra functionality is then added through the use of scripts available in the `/
 
 ## Scripts
 
-### Core
+### /
 
 > > **bash /opt/gem/gem.sh \<folder\>**
 >
