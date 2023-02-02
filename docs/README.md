@@ -13,6 +13,11 @@ Extra functionality is then added through the use of scripts available in the `/
     1. [Guide](Setup.md)
     2. [Gem Installation Instructions](Setup.md#gem)
 
+## Philosophy
+
+1. Multiple runs of a script produce the same result as a single run
+2. All scripts come with a removal script to undo the changes
+
 ## Usage
 
 > bash /opt/gem/gem.sh \<folder\>
