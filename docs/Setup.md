@@ -81,7 +81,7 @@
 > genfstab -U -p /mnt >> /mnt/etc/fstab
 
 > cat /mnt/etc/fstab
-- You see two entries: /, /home
+- You see two entries: `/`, `/home`
 
 ## Pacstrap
 > pacstrap -i /mnt base
