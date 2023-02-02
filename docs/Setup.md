@@ -2,7 +2,7 @@
 - Based off of this [video guide](https://www.youtube.com/watch?v=DPLnBPM4DhI)
 
 # Partitioning
-## Partitioning [A]
+## A
 fdisk -l
 - List disks
 - Note your disk you want to install to: /dev/sda
@@ -30,11 +30,11 @@ t
 p
     - You see 'EFI System', 'Linux LVM'
 w
-## Partitioning [B] | Formatting / LVM Setup
+## B | Formatting / LVM Setup
 mkfs.fat -F32 /dev/sda1
 pvcreate --dataalignment 1m /dev/sda2
 vgcreate volgroup0 /dev/sda2
-## Partitioning [C]
+## C
 lvcreate -L 24GB volgroup0 -n lv_root
     - pacman will store packages here, you need some space
     - You can purge /var/cache/pacman/pkg/ if you run out
@@ -44,7 +44,7 @@ modprobe dm_mod
     - Load kernel module into kernel
 vgscan
 vgchange -ay
-## Partitioning [D]
+## D
 mkfs.ext4 /dev/volgroup0/lv_root
 mount /dev/volgroup0/lv_root /mnt
 mkfs.ext4 /dev/volgroup0/lv_home
