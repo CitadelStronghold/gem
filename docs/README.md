@@ -28,11 +28,11 @@ Extra functionality is then added through the use of the `gem` command.
 
 > > **gem install \<folder\>**
 >
+> > Used during [installation](Setup.md#gem)
+> >
 > > Copies `/opt/gem` into `<folder>`
 > >
 > > Copies binaries into `/usr/bin`
-> >
-> > Used during [installation](Setup.md#gem)
 
 ---
 
