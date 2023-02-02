@@ -148,8 +148,7 @@
 
 > passwd \<username\>
 
-> which sudo
-- Prove sudo is installed
+> pacman -S sudo
 
 > EDITOR=vim visudo
 - Uncomment the "%wheel ALL=..." line
