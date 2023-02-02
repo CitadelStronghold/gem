@@ -27,6 +27,7 @@ jobs:
           docker exec arch bash /opt/gem/binaries.sh /opt/gem /
 
           docker exec arch gem
+          docker exec arch gem tree
 
           docker exec arch find /opt/gem/gems -type f -exec bash {} \;
           docker exec arch find /opt/gem/gems -type f -exec bash {} r \;
