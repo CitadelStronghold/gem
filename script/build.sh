@@ -10,7 +10,9 @@ echo "[gem] [prepare]"
 cp -r $TEMPLATE_PATH $PROFILE_PATH
 cp -r $GEM_FILES_PATH/* $PROFILE_PATH/airootfs
 
-git clone https://github.com/GeodeGames/gem-scripts.git $PROFILE_PATH/airootfs/opt/gem
+bash gem-scripts/gem.sh $PROFILE_PATH/airootfs/opt "$(pwd)"/gem-scripts
+mv $PROFILE_PATH/airootfs/opt/gem-scripts $PROFILE_PATH/airootfs/opt/gem
+# git clone https://github.com/GeodeGames/gem-scripts.git $PROFILE_PATH/airootfs/opt/gem
 
 echo 'git' | tee -a $PROFILE_PATH/packages.x86_64
 
