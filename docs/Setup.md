@@ -140,7 +140,7 @@
 
 ---
 
-> gem s sudo
+> pacman -S sudo
 
 > useradd -m -g users -G wheel \<username\>
 - -m makes a home

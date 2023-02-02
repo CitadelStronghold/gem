@@ -67,12 +67,6 @@ Extra functionality is then added through the use of the `gem` command.
 
 ---
 
-> > **gem s sudo**
->
-> > - `sudo`
-
----
-
 > > **gem s [btop](https://github.com/aristocratos/btop)**
 >
 > > - `btop`
