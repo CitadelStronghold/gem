@@ -23,12 +23,8 @@ jobs:
           docker exec arch pacman -S --noconfirm sudo git
 
           docker exec arch mkdir -p /opt
-          docker exec arch cp -rf /gem/gem-scripts /opt
-          docker exec arch mv /opt/gem-scripts /opt/gem
-          docker exec arch ls -la /opt
-          docker exec arch ls -la /opt/gem
-
-          docker exec arch /gem/gem-scripts/bin/gem install /
+          docker exec arch git clone https://github.com/GeodeGames/gem-scripts.git /opt/gem
+          docker exec arch bash /opt/gem/binaries.sh /opt/gem /
 
   build:
     runs-on: ubuntu-latest
