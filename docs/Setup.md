@@ -3,44 +3,44 @@
 
 # Partitioning
 
-fdisk -l
+> fdisk -l
 - List disks
 - Note your disk you want to install to: /dev/sda
 
-fdisk /dev/sda
+> fdisk /dev/sda
 
-p
+> p
 
-g
+> g
 
-n
+> n
 - Enter
 - Enter
 - +2g
     - Your boot partition size
 
-t
+> t
 
-1
+> 1
 - Changed type to 'EFI System'
 
-p
+> p
 
-n
+> n
 - Enter
 - Enter
 - Enter
 
-t
+> t
 - Enter
 - 43
     - Changed type to 'Linux LVM'
     - There are no downsides to using the LVM type
 
-p
+> p
 - You see 'EFI System', 'Linux LVM'
 
-w
+> w
 
 ## Formatting / LVM Setup
 > mkfs.fat -F32 /dev/sda1
