@@ -42,6 +42,7 @@ Extra functionality is then added through the use of scripts available in the `/
 > > Development Tools
 > > - `git`
 > > - `vim`
+> > - `which`
 
 > > #### [BTOP](https://github.com/aristocratos/btop)
 >
