@@ -21,6 +21,8 @@ bash $PROFILE_PATH/airootfs/opt/gem/install.sh $PROFILE_PATH/airootfs/opt/gem $P
 
 echo 'git' | tee -a $PROFILE_PATH/packages.x86_64
 
+cp -f $GEM_ROOTFS_PATH/../ext/profiledef.sh $PROFILE_PATH
+
 ##
 
 echo "[gem] [build]"
