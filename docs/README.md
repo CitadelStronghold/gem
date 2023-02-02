@@ -33,10 +33,7 @@ Extra functionality is then added through the use of scripts available in the `/
 ### Packages
 
 > #### [BTOP](github.com/aristocratos/btop)
-> &nbsp;
-> bash /opt/gem/s/btop.sh
-> &nbsp;
-> &nbsp;
+> > bash /opt/gem/s/btop.sh
 > ![Sample](https://github.com/aristocratos/btop/raw/main/Img/normal.png)
 
 ## [Releases](https://github.com/GeodeGames/gem/releases)
