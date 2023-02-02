@@ -20,7 +20,7 @@ jobs:
           docker exec arch pacman-key --init
           docker exec arch pacman -Syu --noconfirm
 
-          docker exec arch pacman -S --noconfirm sudo
+          docker exec arch pacman -S --noconfirm sudo git
 
           docker exec arch mkdir -p /opt
           docker exec arch cp -rf /gem/gem-scripts /opt
