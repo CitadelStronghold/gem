@@ -199,6 +199,34 @@ reboot
 
 > systemctl status paccache.timer
 
+# Timezone Configuration
+
+> timedatectl list-timezones
+
+> timedatectl set-timezone America/Denver
+
+> systemctl enable systemd-timesyncd
+
+# Hostname
+
+> hostnamectl set-hostname \<hostname\>
+
+> cat /etc/hostname
+
+> vim /etc/hosts
+- 127.0.0.1 localhost
+- 127.0.0.1 \<hostname\>
+
+> hostnamectl
+
+# [Microcode](https://wiki.archlinux.org/title/microcode#:~:text=These%20updates%20provide%20bug%20fixes,updates%20to%20ensure%20system%20stability.)
+- All arch users should install the right microcode for their processor, to ensure stability
+
+> pacman -S amd-ucode
+
+> pacman -S intel-ucode
+- Pick one of the above lines
+
 # Swap Partition (Not Strictly Necessary)
 - Swap files can be altered without editing partition table
 
@@ -227,34 +255,6 @@ reboot
 
 > swapon -a
 > free -m
-
-# Timezone Configuration
-
-> timedatectl list-timezones
-
-> timedatectl set-timezone America/Denver
-
-> systemctl enable systemd-timesyncd
-
-# Hostname
-
-> hostnamectl set-hostname \<hostname\>
-
-> cat /etc/hostname
-
-> vim /etc/hosts
-- 127.0.0.1 localhost
-- 127.0.0.1 \<hostname\>
-
-> hostnamectl
-
-# [Microcode](https://wiki.archlinux.org/title/microcode#:~:text=These%20updates%20provide%20bug%20fixes,updates%20to%20ensure%20system%20stability.)
-- All arch users should install the right microcode for their processor, to ensure stability
-
-> pacman -S amd-ucode
-
-> pacman -S intel-ucode
-- Pick one of the above lines
 
 ---
 
