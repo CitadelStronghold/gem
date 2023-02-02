@@ -23,12 +23,12 @@ Extra functionality is then added through the use of scripts available in the `/
 
 ### Core
 
-> > > bash /opt/gem/gem.sh \<folder\>
+> > **bash /opt/gem/gem.sh \<folder\>**
 >
 > > Copies `/opt/gem` into `<folder>`
 > > Used during [installation](Setup.md#gem)
 
-> > > bash /opt/gem/update.sh
+> > **bash /opt/gem/update.sh**
 > 
 > > Update all scripts via [the git repository](https://github.com/GeodeGames/gem-scripts)
 
@@ -36,7 +36,7 @@ Extra functionality is then added through the use of scripts available in the `/
 
 > > #### [BTOP](github.com/aristocratos/btop)
 >
-> > > > > > > > > bash /opt/gem/s/btop.sh
+> > **bash /opt/gem/s/btop.sh**
 >
 > > ![Sample](https://github.com/aristocratos/btop/raw/main/Img/normal.png)
 
