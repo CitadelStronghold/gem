@@ -48,6 +48,7 @@ Extra functionality is then added through the use of the `gem` command.
 ---
 
 > > **gem s dev**
+> > **gem r dev**
 >
 > > - `git`
 > > - `vim`
