@@ -177,6 +177,12 @@
 > umount -a
 - Errors here are fine
 
+---
+
+reboot
+
+---
+
 # Pacman Configuration
 
 > vim /etc/pacman.conf
