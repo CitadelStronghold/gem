@@ -20,7 +20,7 @@ jobs:
 
           docker exec arch ls -la /gem
           docker exec arch bash /gem/script/deps.sh
-          docker exec arch bash /gem/script/build.sh
+          docker exec arch GEM_FILES_PATH=/gem/files bash /gem/script/build.sh
 
       - run: |
           # dev.to/dakdevs/delete-all-releases-from-github-repo-13ad

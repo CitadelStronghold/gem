@@ -1,10 +1,12 @@
 #!/bin/bash
 
+GEM_FILES_PATH="${GEM_FILES_PATH:-./files}"
+
 TEMPLATE_PATH="/usr/share/archiso/configs/releng"
 PROFILE_PATH="/root/gemlive"
 
 cp -r $TEMPLATE_PATH $PROFILE_PATH
-cp -r /gem/files/* $PROFILE_PATH/airootfs
+cp -r $GEM_FILES_PATH/* $PROFILE_PATH/airootfs
 
 cd /root
 
