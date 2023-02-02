@@ -24,6 +24,8 @@ jobs:
 
           docker exec arch mkdir -p /opt/gem
           docker exec arch cp -rf /gem /opt
+          docker exec arch ls -la /opt
+          docker exec arch ls -la /opt/gem
 
           docker exec arch /gem/gem-scripts/bin/gem install /
 
