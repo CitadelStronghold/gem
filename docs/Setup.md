@@ -83,9 +83,14 @@
 > cat /mnt/etc/fstab
 - You see two entries: /, /home
 
-## Base Packages
+## Pacstrap
 > pacstrap -i /mnt base
 
+## Gem
+> bash /opt/gem.sh /mnt
+- Install gem scripts into `/mnt/opt/gem`
+
+## Base Packages
 > arch-chroot /mnt
 
 > pacman -S linux linux-headers
@@ -241,12 +246,6 @@
 
 > pacman -S intel-ucode
 - Pick one of the above lines
-
----
-
-## Gem
-
-> bash
 
 ---
 
