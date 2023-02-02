@@ -1,3 +1,0 @@
-[Service]
-Type=oneshot
-ExecStart=bash /opt/gem/u/gem.sh
