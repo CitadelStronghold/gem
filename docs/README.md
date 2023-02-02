@@ -33,13 +33,27 @@ Extra functionality is then added through the use of scripts available in the `/
 > 
 > > Update all scripts via [the git repository](https://github.com/GeodeGames/gem-scripts)
 
-### Packages
+### s
 
 > > #### [BTOP](https://github.com/aristocratos/btop)
 >
 > > **bash /opt/gem/s/btop.sh**
 >
 > > ![Sample](https://github.com/aristocratos/btop/raw/main/Img/normal.png)
+
+#### net
+
+> > #### core
+>
+> > **bash /opt/gem/s/net/core.sh**
+>
+> > Install `NetworkManager`
+
+> > #### wifi
+>
+> > **bash /opt/gem/s/net/wifi.sh**
+>
+> > WiFi Tools
 
 ## [Releases](https://github.com/GeodeGames/gem/releases)
 The only supported architecture at present is `x86_64`.
