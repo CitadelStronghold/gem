@@ -2,7 +2,7 @@
 - Based off of this [video guide](https://www.youtube.com/watch?v=DPLnBPM4DhI)
 
 # Partitioning
-##
+
 fdisk -l
 - List disks
 - Note your disk you want to install to: /dev/sda
