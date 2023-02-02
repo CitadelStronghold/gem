@@ -44,9 +44,13 @@ Extra functionality is then added through the use of scripts available in the `/
 
 ### s
 
+---
+
 > > **gem s sudo**
 >
 > > - `sudo`
+
+---
 
 > > **gem s dev**
 >
@@ -54,19 +58,29 @@ Extra functionality is then added through the use of scripts available in the `/
 > > - `vim`
 > > - `which`
 
+---
+
 > > **gem s [btop](https://github.com/aristocratos/btop)**
 >
 > > ![Sample](https://github.com/aristocratos/btop/raw/main/Img/normal.png)
 
+---
+
 #### net
+
+---
 
 > > **gem s net/core**
 >
 > > Install `NetworkManager`
 
+---
+
 > > **gem s net/wifi**
 >
 > > WiFi Tools
+
+---
 
 ## [Releases](https://github.com/GeodeGames/gem/releases)
 The only supported architecture at present is `x86_64`.
