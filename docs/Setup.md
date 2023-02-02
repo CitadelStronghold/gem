@@ -101,21 +101,14 @@
 - You may select which one at boot
 - *Accept the default package provider*
 
-> pacman -S base-devel
-- Probably will need it
-- *Accept the default package provider*
+#> pacman -S base-devel
+#- Probably will need it
+#- *Accept the default package provider*
 
-## Networking Packages
+> bash /opt/gem/s/net/core.sh
 
-> pacman -S networkmanager
-
-> pacman -S wpa_supplicant wireless_tools netctl
-- Wireless support
-
-> pacman -S dialog
-- Wifi menu when GUI is not working
-
-> systemctl enable NetworkManager
+> bash /opt/gem/s/net/wifi.sh
+- Optional
 
 > pacman -S lvm2
 - Required regardless of partitioning setup type
