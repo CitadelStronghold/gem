@@ -101,6 +101,9 @@
 - You may select which one at boot
 - *Accept the default package provider*
 
+> pacman -S lvm2
+- Required regardless of partitioning setup type
+
 #> pacman -S base-devel
 #- Probably will need it
 #- *Accept the default package provider*
@@ -111,13 +114,6 @@
 
 > bash /opt/gem/s/net/wifi.sh
 - Optional
-
-> pacman -S lvm2
-- Required regardless of partitioning setup type
-
-> pacman -S vim
-- Pick a text editor
-- nano, etc...
 
 > vim /etc/mkinitcpio.conf
 - Find HOOKS=
