@@ -20,7 +20,7 @@ Extra functionality is then added through the use of the `gem` command.
 3. Scope of a script is as limited as possible
 4. All extended functionality is derived from a single command, `gem`
 
-## Scripts
+## Gems
 
 ### /
 
