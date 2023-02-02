@@ -49,7 +49,7 @@ Extra functionality is then added through the use of the `gem` command.
 
 ---
 
-> > **gem s \<name\>**
+> > **gem r \<name\>**
 > 
 > > Uninstall a gem
 
