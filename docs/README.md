@@ -32,13 +32,13 @@ Extra functionality is then added through the use of scripts available in the `/
 
 ### Packages
 
->
+> &nbsp;
 > #### [BTOP](github.com/aristocratos/btop)
->
+> &nbsp;
 > bash /opt/gem/s/btop.sh
->
+> &nbsp;
 > ![Sample](https://github.com/aristocratos/btop/raw/main/Img/normal.png)
->
+> &nbsp;
 
 ## [Releases](https://github.com/GeodeGames/gem/releases)
 The only supported architecture at present is `x86_64`.
