@@ -1,6 +1,6 @@
 #!/bin/bash
 
-GEM_FILES_PATH="${1:-./files}"
+GEM_FILES_PATH="${1:-./rootfs}"
 
 TEMPLATE_PATH="/usr/share/archiso/configs/releng"
 PROFILE_PATH="/root/gemlive"
@@ -11,8 +11,6 @@ cp -r $TEMPLATE_PATH $PROFILE_PATH
 cp -r $GEM_FILES_PATH/* $PROFILE_PATH/airootfs
 
 git clone https://github.com/GeodeGames/gem-setup.git $PROFILE_PATH/opt/gem
-
-echo 'gemiso' | tee $PROFILE_PATH/etc/hostname
 
 echo "[gem] [build]"
 
