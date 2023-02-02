@@ -20,6 +20,7 @@ jobs:
           docker exec arch pacman-key --init
           docker exec arch pacman -Syu --noconfirm
 
+          docker exec arch pacman -S sudo
           docker exec arch /gem/gem-scripts/bin/gem install /
 
   build:
