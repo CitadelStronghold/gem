@@ -101,9 +101,6 @@
 - You may select which one at boot
 - *Accept the default package provider*
 
-> pacman -S lvm2
-- Required regardless of partitioning setup type
-
 #> pacman -S base-devel
 #- Probably will need it
 #- *Accept the default package provider*
@@ -112,9 +109,10 @@
 
 > bash /opt/gem/s/net/core.sh
 
-> bash /opt/gem/s/net/wifi.sh
-- Optional
+> > bash /opt/gem/s/net/wifi.sh
 
+> pacman -S lvm2
+- Required regardless of partitioning setup type
 > vim /etc/mkinitcpio.conf
 - Find HOOKS=
 - Add lvm2 between block and filesystems
