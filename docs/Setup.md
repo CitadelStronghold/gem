@@ -88,7 +88,7 @@
 
 ## Gem
 > bash /opt/gem.sh /mnt
-- Installs gem scripts into `/mnt/opt/gem`
+- Installs [gem](https://github.com/GeodeGames/gem) scripts into `/mnt/opt/gem`
 
 ## Base Packages
 > arch-chroot /mnt
