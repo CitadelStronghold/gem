@@ -55,8 +55,6 @@ Extra functionality is then added through the use of the `gem` command.
 
 ---
 
-### s
-
 ---
 
 > > **gem s dev**
@@ -81,7 +79,7 @@ Extra functionality is then added through the use of the `gem` command.
 
 ---
 
-#### net
+### net/
 
 ---
 
