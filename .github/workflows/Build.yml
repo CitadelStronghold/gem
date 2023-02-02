@@ -14,13 +14,13 @@ jobs:
         with:
           submodules: 'recursive'
 
-      - name: Build
+      - name: Test
         run: |
           docker run -t -d --name arch -v "$(pwd)":/gem:rw --privileged archlinux:latest
           docker exec arch pacman-key --init
           docker exec arch pacman -Syu --noconfirm
 
-          docker exec arch pacman -S sudo
+          docker exec arch pacman -S --noconfirm sudo
           docker exec arch /gem/gem-scripts/bin/gem install /
 
   build:
