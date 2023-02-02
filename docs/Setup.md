@@ -121,17 +121,20 @@
 - Find HOOKS=
 - Add lvm2 between block and filesystems
 
----
-
 > mkinitcpio -p linux
 
 > mkinitcpio -p linux-lts
 - Only if you also installed LTS
 
+---
+
 > vim /etc/locale.gen
 - Find yours (en_US.UTF-8)
 
 > locale-gen
+- You should see it be generated
+
+---
 
 > passwd
 - Root user password
