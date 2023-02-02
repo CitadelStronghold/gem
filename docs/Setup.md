@@ -168,8 +168,9 @@
 
 > cp /usr/share/locale/en\@quot/LC_MESSAGES/grub.mo /boot/grub/locale/en.mo
 
+- Grub config is in /etc/default/grub, configure it before running the next command if you want
+
 > grub-mkconfig -o /boot/grub/grub.cfg
-- Grub config is in /etc/default/grub, configure it before running if you want
 
 > exit
 
