@@ -19,7 +19,7 @@ Extra functionality is then added through the use of scripts available in the `/
 2. All scripts come with a removal script to undo the changes
 3. Scope of a script is as limited as possible
 
-## Usage
+## Scripts
 
 ### Core
 
