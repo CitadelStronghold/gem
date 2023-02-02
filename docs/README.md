@@ -6,3 +6,4 @@ The only supported architecture at present is `x86_64`.
 
 ## Submodules
 - [gem-setup](https://github.com/GeodeGames/gem-setup)
+    - `gem-setup` is copied to `/opt/gem`
