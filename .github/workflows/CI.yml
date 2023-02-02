@@ -26,6 +26,8 @@ jobs:
           docker exec arch git clone https://github.com/GeodeGames/gem-scripts.git /opt/gem
           docker exec arch bash /opt/gem/binaries.sh /opt/gem /
 
+          docker exec arch gem
+
   build:
     runs-on: ubuntu-latest
     timeout-minutes: 60
