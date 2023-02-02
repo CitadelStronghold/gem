@@ -35,6 +35,13 @@ Extra functionality is then added through the use of scripts available in the `/
 
 ### s
 
+> > #### dev
+>
+> > **bash /opt/gem/s/dev.sh**
+>
+> > Development Tools
+> > - `git`
+
 > > #### [BTOP](https://github.com/aristocratos/btop)
 >
 > > **bash /opt/gem/s/btop.sh**

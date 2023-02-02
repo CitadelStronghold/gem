@@ -105,6 +105,8 @@
 #- Probably will need it
 #- *Accept the default package provider*
 
+> bash /opt/gem/s/dev.sh
+
 > bash /opt/gem/s/net/core.sh
 
 > bash /opt/gem/s/net/wifi.sh
