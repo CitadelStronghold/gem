@@ -83,12 +83,12 @@
 > cat /mnt/etc/fstab
 - You see two entries: `/`, `/home`
 
-## Pacstrap
-> pacstrap -i /mnt base
-
 ## Gem
 > bash /opt/gem.sh /mnt
 - Installs [gem](https://github.com/GeodeGames/gem) scripts into `/mnt/opt/gem`
+
+## Pacstrap
+> pacstrap -i /mnt base
 
 ## Base Packages
 > arch-chroot /mnt
