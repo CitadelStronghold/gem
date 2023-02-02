@@ -26,7 +26,7 @@ Extra functionality is then added through the use of the `gem` command.
 
 ---
 
-> > **bash /opt/gem/gem.sh \<folder\>**
+> > **bash /opt/gem/install.sh \<folder\>**
 >
 > > Copies `/opt/gem` into `<folder>`
 > >
