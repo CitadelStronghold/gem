@@ -171,12 +171,12 @@
 
 > grub-mkconfig -o /boot/grub/grub.cfg
 
+---
+
 > exit
 
 > umount -a
 - Errors are normal here
-
----
 
 > reboot
 
