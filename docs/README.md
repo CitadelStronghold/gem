@@ -16,7 +16,7 @@ Instead, extra functionality is added through the use of scripts available in th
 ## Usage
 
 > bash /opt/gem/update.sh
-- Update the scripts
+- Update all scripts via [the git repository](https://github.com/GeodeGames/gem-setup)
 
 ## [Releases](https://github.com/GeodeGames/gem/releases)
 The only supported architecture at present is `x86_64`.
