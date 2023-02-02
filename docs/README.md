@@ -43,13 +43,23 @@ Extra functionality is then added through the use of the `gem` command.
 
 ---
 
+> > **gem s \<name\>**
+> 
+> > Install a gem
+
+---
+
+> > **gem s \<name\>**
+> 
+> > Uninstall a gem
+
+---
+
 ### s
 
 ---
 
 > > **gem s dev**
->
-> > **gem r dev**
 >
 > > - `git`
 > > - `vim`
