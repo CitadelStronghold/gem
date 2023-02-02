@@ -104,10 +104,6 @@
 - You may select which one at boot
 - *Accept the default package provider*
 
-#> pacman -S base-devel
-#- Probably will need it
-#- *Accept the default package provider*
-
 > bash /opt/gem/s/dev.sh
 
 > bash /opt/gem/s/net/core.sh
