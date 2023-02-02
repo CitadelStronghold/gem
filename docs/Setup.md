@@ -141,12 +141,12 @@
 
 ---
 
-> useradd -m -g users -G wheel <username>
+> useradd -m -g users -G wheel \<username\>
 - -m makes a home
 - -g is initial group
 - wheel is a group for administrative commands
 
-> passwd <username>
+> passwd \<username\>
 
 > which sudo
 - Prove sudo is installed
@@ -229,13 +229,13 @@
 
 ## Hostname
 
-> hostnamectl set-hostname <hostname>
+> hostnamectl set-hostname \<hostname\>
 
 > cat /etc/hostname
 
 > vim /etc/hosts
 - 127.0.0.1 localhost
-- 127.0.0.1 <hostname>
+- 127.0.0.1 \<hostname\>
 
 > hostnamectl
 
