@@ -99,7 +99,7 @@
 - Pick one of the above lines, or do both based on your desired stability
 - Having multiple kernels can save you if something is incompatible with the newer one
 - You may select which one at boot
-- Accept default provider
+- Accept the default package provider
 
 > pacman -S base-devel
 - Probably will need it
