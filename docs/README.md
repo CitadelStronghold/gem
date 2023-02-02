@@ -15,6 +15,9 @@ Extra functionality is then added through the use of scripts available in the `/
 
 ## Usage
 
+> bash /opt/gem/gem.sh <folder>
+- Copy `/opt/gem` into `<folder>`
+
 > bash /opt/gem/update.sh
 - Update all scripts via [the git repository](https://github.com/GeodeGames/gem-scripts)
 
