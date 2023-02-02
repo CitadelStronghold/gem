@@ -63,6 +63,8 @@ Extra functionality is then added through the use of the `gem` command.
 
 > > **gem s [btop](https://github.com/aristocratos/btop)**
 >
+> > - `btop`
+>
 > > ![Sample](https://github.com/aristocratos/btop/raw/main/Img/normal.png)
 
 ---
