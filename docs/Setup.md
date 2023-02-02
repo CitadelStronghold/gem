@@ -4,8 +4,8 @@
 # Partitioning
 ## Partitioning [A]
 fdisk -l
-    - List disks
-    - Note your disk you want to install to: /dev/sda
+- List disks
+- Note your disk you want to install to: /dev/sda
 fdisk /dev/sda
 p
 g
