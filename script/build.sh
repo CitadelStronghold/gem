@@ -12,6 +12,9 @@ cp -r $GEM_FILES_PATH/* $PROFILE_PATH/airootfs
 
 git clone https://github.com/GeodeGames/gem-setup.git $PROFILE_PATH/opt/gem
 
+mkdir -p $PROFILE_PATH/etc
+echo 'gemiso' | tee $PROFILE_PATH/etc/hostname
+
 echo "[gem] [build]"
 
 cd /root
