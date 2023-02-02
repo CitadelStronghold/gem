@@ -18,6 +18,7 @@ Extra functionality is then added through the use of scripts available in the `/
 1. Multiple runs of a script produce the same result as a single run
 2. All scripts come with uninstall functionality, to undo their changes
 3. Scope of a script is as limited as possible
+4. All extended functionality is derived from a single command, `gem`
 
 ## Scripts
 
