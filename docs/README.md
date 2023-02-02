@@ -23,12 +23,14 @@ Extra functionality is then added through the use of scripts available in the `/
 
 ### Core
 
-> bash /opt/gem/gem.sh \<folder\>
-- Copies `/opt/gem` into `<folder>`
-- Used during [installation](Setup.md#gem)
+> > bash /opt/gem/gem.sh \<folder\>
+>
+> > - Copies `/opt/gem` into `<folder>`
+> > - Used during [installation](Setup.md#gem)
 
-> bash /opt/gem/update.sh
-- Update all scripts via [the git repository](https://github.com/GeodeGames/gem-scripts)
+> > bash /opt/gem/update.sh
+> 
+> > - Update all scripts via [the git repository](https://github.com/GeodeGames/gem-scripts)
 
 ### Packages
 
