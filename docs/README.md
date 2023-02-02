@@ -37,8 +37,6 @@ Extra functionality is then added through the use of scripts available in the `/
 
 ### s
 
-> > #### sudo
->
 > > **gem s sudo**
 >
 > > Development Tools
@@ -46,8 +44,6 @@ Extra functionality is then added through the use of scripts available in the `/
 > > - `vim`
 > > - `which`
 
-> > #### dev
->
 > > **gem s dev**
 >
 > > Development Tools
@@ -63,14 +59,10 @@ Extra functionality is then added through the use of scripts available in the `/
 
 #### net
 
-> > #### core
->
 > > **gem s net/core**
 >
 > > Install `NetworkManager`
 
-> > #### wifi
->
 > > **gem s net/wifi**
 >
 > > WiFi Tools
