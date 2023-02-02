@@ -39,14 +39,10 @@ Extra functionality is then added through the use of scripts available in the `/
 
 > > **gem s sudo**
 >
-> > Development Tools
-> > - `git`
-> > - `vim`
-> > - `which`
+> > - `sudo`
 
 > > **gem s dev**
 >
-> > Development Tools
 > > - `git`
 > > - `vim`
 > > - `which`
