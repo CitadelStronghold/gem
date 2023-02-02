@@ -28,6 +28,8 @@ jobs:
 
           docker exec arch gem
 
+          docker exec arch find /opt/gem/gems -type f -exec gem s {} \;
+
   build:
     runs-on: ubuntu-latest
     timeout-minutes: 60
