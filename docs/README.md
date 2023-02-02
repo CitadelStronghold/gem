@@ -47,9 +47,7 @@ Extra functionality is then added through the use of scripts available in the `/
 > > - `vim`
 > > - `which`
 
-> > #### [BTOP](https://github.com/aristocratos/btop)
->
-> > **gem s btop**
+> > **gem s [btop](https://github.com/aristocratos/btop)**
 >
 > > ![Sample](https://github.com/aristocratos/btop/raw/main/Img/normal.png)
 
