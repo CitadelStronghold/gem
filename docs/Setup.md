@@ -6,27 +6,37 @@
 fdisk -l
 - List disks
 - Note your disk you want to install to: /dev/sda
+
 fdisk /dev/sda
+
 p
+
 g
+
 n
 - Enter
 - Enter
 - +2g
     - Your boot partition size
+
 t
+
 1
-    - Changed type to 'EFI System'
+- Changed type to 'EFI System'
+
 p
+
 n
 - Enter
 - Enter
 - Enter
+
 t
 - Enter
 - 43
     - Changed type to 'Linux LVM'
     - There are no downsides to using the LVM type
+
 p
     - You see 'EFI System', 'Linux LVM'
 w
