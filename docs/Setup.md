@@ -43,14 +43,16 @@
 
 > w
 
-## Formatting / LVM Setup
+---
+
 > mkfs.fat -F32 /dev/sda1
 
 > pvcreate --dataalignment 1m /dev/sda2
 
 > vgcreate volgroup0 /dev/sda2
 
-##
+---
+
 > lvcreate -L 24GB volgroup0 -n lv_root
 - `pacman` will store packages here, you need some space
 - You can purge /var/cache/pacman/pkg/ if you run out
@@ -65,7 +67,8 @@
 
 > vgchange -ay
 
-## D
+---
+
 > mkfs.ext4 /dev/volgroup0/lv_root
 
 > mount /dev/volgroup0/lv_root /mnt
@@ -83,14 +86,14 @@
 > cat /mnt/etc/fstab
 - You see two entries: `/`, `/home`
 
-## Gem
+# Gem
 > bash /opt/gem/gem.sh /mnt
 - Installs [gem](https://github.com/GeodeGames/gem) scripts into `/mnt/opt/gem`
 
-## Pacstrap
+# Pacstrap
 > pacstrap -i /mnt base
 
-## Base Packages
+# Base Packages
 > arch-chroot /mnt
 
 > pacman -S linux linux-headers
@@ -153,7 +156,7 @@
 > EDITOR=vim visudo
 - Uncomment the "%wheel ALL=..." line
 
-## GRUB
+# GRUB
 
 > pacman -S grub efibootmgr dosfstools os-prober mtools
 
@@ -196,7 +199,7 @@ reboot
 
 > systemctl status paccache.timer
 
-## Swap Partition (Not Strictly Necessary)
+# Swap Partition (Not Strictly Necessary)
 - Swap files can be altered without editing partition table
 
 > su
@@ -225,7 +228,7 @@ reboot
 > swapon -a
 > free -m
 
-## Timezone Configuration
+# Timezone Configuration
 
 > timedatectl list-timezones
 
@@ -233,7 +236,7 @@ reboot
 
 > systemctl enable systemd-timesyncd
 
-## Hostname
+# Hostname
 
 > hostnamectl set-hostname \<hostname\>
 
@@ -245,7 +248,7 @@ reboot
 
 > hostnamectl
 
-## [Microcode](https://wiki.archlinux.org/title/microcode#:~:text=These%20updates%20provide%20bug%20fixes,updates%20to%20ensure%20system%20stability.)
+# [Microcode](https://wiki.archlinux.org/title/microcode#:~:text=These%20updates%20provide%20bug%20fixes,updates%20to%20ensure%20system%20stability.)
 - All arch users should install the right microcode for their processor, to ensure stability
 
 > pacman -S amd-ucode
