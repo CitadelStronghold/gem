@@ -1,9 +1,9 @@
 # Gem
 Gem is an Arch Linux ISO distribution with convenient configuration scripts.
 
-There are no default changes from regular Arch Linux.
+A base installation is exactly the same as Arch Linux.
 
-Instead, extra functionality is added through the use of scripts available in the `/opt/gem` directory.
+Extra functionality is then added through the use of scripts available in the `/opt/gem` directory.
 
 ## Installation
 
