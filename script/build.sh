@@ -4,7 +4,7 @@ TEMPLATE_PATH="/usr/share/archiso/configs/releng"
 PROFILE_PATH="/root/gemlive"
 
 cp -r $TEMPLATE_PATH $PROFILE_PATH
-cp -r ./files/* $PROFILE_PATH/airootfs
+cp -r /gem/files/* $PROFILE_PATH/airootfs
 
 cd /root
 
