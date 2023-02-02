@@ -43,49 +43,49 @@ p
 w
 
 ## Formatting / LVM Setup
-mkfs.fat -F32 /dev/sda1
+> mkfs.fat -F32 /dev/sda1
 
-pvcreate --dataalignment 1m /dev/sda2
+> pvcreate --dataalignment 1m /dev/sda2
 
-vgcreate volgroup0 /dev/sda2
+> vgcreate volgroup0 /dev/sda2
 
 ##
-lvcreate -L 24GB volgroup0 -n lv_root
+> lvcreate -L 24GB volgroup0 -n lv_root
 - pacman will store packages here, you need some space
 - You can purge /var/cache/pacman/pkg/ if you run out
 - See below for automatic cleaning of this
 
-lvcreate -l 100%FREE volgroup0 -n lv_home
+> lvcreate -l 100%FREE volgroup0 -n lv_home
 
-modprobe dm_mod
+> modprobe dm_mod
 - Load kernel module into kernel
 
-vgscan
+> vgscan
 
-vgchange -ay
+> vgchange -ay
 
 ## D
-mkfs.ext4 /dev/volgroup0/lv_root
+> mkfs.ext4 /dev/volgroup0/lv_root
 
-mount /dev/volgroup0/lv_root /mnt
+> mount /dev/volgroup0/lv_root /mnt
 
-mkfs.ext4 /dev/volgroup0/lv_home
+> mkfs.ext4 /dev/volgroup0/lv_home
 
-mkdir /mnt/home
+> mkdir /mnt/home
 
-mount /dev/volgroup0/lv_home /mnt/home
+> mount /dev/volgroup0/lv_home /mnt/home
 
-mkdir /mnt/etc
+> mkdir /mnt/etc
 
-genfstab -U -p /mnt >> /mnt/etc/fstab
+> genfstab -U -p /mnt >> /mnt/etc/fstab
 
 > cat /mnt/etc/fstab
 - You see two entries: /, /home
 
 ## Base Packages
-pacstrap -i /mnt base
+> pacstrap -i /mnt base
 
-arch-chroot /mnt
+> arch-chroot /mnt
 
 > pacman -S linux linux-headers
 
@@ -101,7 +101,7 @@ arch-chroot /mnt
 
 ## Networking Packages
 
-pacman -S networkmanager
+> pacman -S networkmanager
 
 > pacman -S wpa_supplicant wireless_tools netctl
 - Wireless support
@@ -109,98 +109,98 @@ pacman -S networkmanager
 > pacman -S dialog
 - Wifi menu when GUI is not working
 
-systemctl enable NetworkManager
+> systemctl enable NetworkManager
 
-pacman -S lvm2
+> pacman -S lvm2
 - Required regardless of partitioning setup type
 
 > pacman -S vim
 - Pick a text editor
 - nano, etc...
 
-vim /etc/mkinitcpio.conf
+> vim /etc/mkinitcpio.conf
 - Find HOOKS=
 - Add lvm2 between block and filesystems
 
-mkinitcpio -p linux
+> mkinitcpio -p linux
 
-mkinitcpio -p linux-lts
+> mkinitcpio -p linux-lts
 - Only if you also installed LTS
 
-vim /etc/locale.gen
+> vim /etc/locale.gen
 - Find yours (en_US.UTF-8)
 
-locale-gen
+> locale-gen
 
-passwd
+> passwd
 - Root user password
 
-useradd -m -g users -G wheel <username>
+> useradd -m -g users -G wheel <username>
 - -m makes a home
 - -g is initial group
 - wheel is a group for administrative commands
 
-passwd <username>
+> passwd <username>
 
 > which sudo
 - Prove sudo is installed
 
-EDITOR=vim visudo
+> EDITOR=vim visudo
 - Uncomment the "%wheel ALL=..." line
 
 ## GRUB
 
-pacman -S grub efibootmgr dosfstools os-prober mtools
+> pacman -S grub efibootmgr dosfstools os-prober mtools
 
-mkdir /boot/EFI
+> mkdir /boot/EFI
 
-mount /dev/sda1 /boot/EFI
+> mount /dev/sda1 /boot/EFI
 
-grub-install --target=x86_64-efi --bootloader-id=grub_uefi --recheck
+> grub-install --target=x86_64-efi --bootloader-id=grub_uefi --recheck
 
-mkdir -p /boot/grub/locale
+> mkdir -p /boot/grub/locale
 - It probably already exists, can check and see
 
-cp /usr/share/locale/en\@quot/LC_MESSAGES/grub.mo /boot/grub/locale/en.mo
+> cp /usr/share/locale/en\@quot/LC_MESSAGES/grub.mo /boot/grub/locale/en.mo
 
-grub-mkconfig -o /boot/grub/grub.cfg
+> grub-mkconfig -o /boot/grub/grub.cfg
 - Grub config is in /etc/default/grub, configure it before running if you want
 
-exit
+> exit
 
-umount -a
+> umount -a
 - Errors here are fine
 
 # Pacman Configuration
 
-vim /etc/pacman.conf
+> vim /etc/pacman.conf
 - Uncomment #ParallelDownloads
 
-pacman -S pacman-contrib
+> pacman -S pacman-contrib
 
-paccache -r
+> paccache -r
 
-systemctl start paccache.timer
+> systemctl start paccache.timer
 
 > systemctl status paccache.timer
 
 ## Swap Partition (Not Strictly Necessary)
 - Swap files can be altered without editing partition table
 
-su
+> su
 
-cd /root
+> cd /root
 
-dd if=/dev/zero of=/swapfile bs=1M count=2048 status=progress
+> dd if=/dev/zero of=/swapfile bs=1M count=2048 status=progress
 
-chmod 600 /swapfile
+> chmod 600 /swapfile
 
-mkswap /swapfile
+> mkswap /swapfile
 
-cp /etc/fstab /etc/fstab.bak
+> cp /etc/fstab /etc/fstab.bak
 - Backs it up
 
-echo '/swapfile none swap sw 0 0' | tee -a /etc/fstab
+> echo '/swapfile none swap sw 0 0' | tee -a /etc/fstab
 
 > cat /etc/fstab
 - You see the /swapfile entry at the bottom
@@ -210,24 +210,24 @@ echo '/swapfile none swap sw 0 0' | tee -a /etc/fstab
 > mount -a
 - Tests fstab configuration
 
-swapon -a
+> swapon -a
 > free -m
 
 ## Timezone Configuration
 
-timedatectl list-timezones
+> timedatectl list-timezones
 
-timedatectl set-timezone America/Denver
+> timedatectl set-timezone America/Denver
 
-systemctl enable systemd-timesyncd
+> systemctl enable systemd-timesyncd
 
 ## Hostname
 
-hostnamectl set-hostname <hostname>
+> hostnamectl set-hostname <hostname>
 
 > cat /etc/hostname
 
-vim /etc/hosts
+> vim /etc/hosts
 - 127.0.0.1 localhost
 - 127.0.0.1 <hostname>
 
@@ -241,4 +241,4 @@ vim /etc/hosts
 > pacman -S intel-ucode
 - Pick one of the above lines
 
-reboot
+> reboot
