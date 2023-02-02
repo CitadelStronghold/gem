@@ -104,11 +104,11 @@
 - You may select which one at boot
 - *Accept the default package provider*
 
-> bash /opt/gem/s/dev.sh
+> gem s dev
 
-> bash /opt/gem/s/net/core.sh
+> gem s net/core
 
-> bash /opt/gem/s/net/wifi.sh
+> gem s net/wifi
 - Optional
 
 ---
@@ -140,14 +140,14 @@
 
 ---
 
+> gem s sudo
+
 > useradd -m -g users -G wheel \<username\>
 - -m makes a home
 - -g is initial group
 - wheel is a group for administrative commands
 
 > passwd \<username\>
-
-> pacman -S sudo
 
 > EDITOR=vim visudo
 - Uncomment the "%wheel ALL=..." line
