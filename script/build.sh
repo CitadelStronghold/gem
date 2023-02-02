@@ -1,6 +1,9 @@
 #!/bin/bash
 
-PROFILE_PATH="/usr/share/archiso/configs/releng"
+TEMPLATE_PATH="/usr/share/archiso/configs/releng"
+PROFILE_PATH="/root/gemlive"
+
+cp -r $TEMPLATE_PATH $PROFILE_PATH
 
 cd /root
 
