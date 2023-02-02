@@ -9,8 +9,9 @@ Instead, extra functionality is added through the use of scripts available in th
 
 1. Download the ISO from the [releases](https://github.com/GeodeGames/gem/releases)
 2. Boot into the ISO on the desired machine
-3. Install Arch Linux + Gem (Follow [Guide](Setup.md))
-    - [Gem Installation Instructions](Setup.md#gem)
+3. Install Arch Linux + Gem
+    1. [Guide](Setup.md)
+    2. [Gem Installation Instructions](Setup.md#gem)
 4. Utilize The Scripts
 > bash /opt/gem/update.sh
     - Update the scripts
