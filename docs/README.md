@@ -12,7 +12,7 @@ Instead, extra functionality is added through the use of scripts available in th
 3. Install Arch Linux + Gem
     1. [Guide](Setup.md)
     2. [Gem Installation Instructions](Setup.md#gem)
-4. Utilize The Scripts
+4. Utilize Scripts
 > bash /opt/gem/update.sh
     - Update the scripts
 
