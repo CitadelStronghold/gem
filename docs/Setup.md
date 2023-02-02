@@ -148,57 +148,96 @@ EDITOR=vim visudo
 - Uncomment the "%wheel ALL=..." line
 
 ## GRUB
+
 pacman -S grub efibootmgr dosfstools os-prober mtools
+
 mkdir /boot/EFI
+
 mount /dev/sda1 /boot/EFI
+
 grub-install --target=x86_64-efi --bootloader-id=grub_uefi --recheck
+
 mkdir -p /boot/grub/locale
-    - It probably already exists, can check and see
+- It probably already exists, can check and see
+
 cp /usr/share/locale/en\@quot/LC_MESSAGES/grub.mo /boot/grub/locale/en.mo
+
 grub-mkconfig -o /boot/grub/grub.cfg
-    - Grub config is in /etc/default/grub, configure it before running if you want
+- Grub config is in /etc/default/grub, configure it before running if you want
+
 exit
+
 umount -a
-    - Errors here are fine
+- Errors here are fine
+
 # Pacman Configuration
+
 vim /etc/pacman.conf
-    - Uncomment #ParallelDownloads
+- Uncomment #ParallelDownloads
+
 pacman -S pacman-contrib
+
 paccache -r
+
 systemctl start paccache.timer
+
 > systemctl status paccache.timer
+
 ## Swap Partition (Not Strictly Necessary)
 - Swap files can be altered without editing partition table
+
 su
+
 cd /root
+
 dd if=/dev/zero of=/swapfile bs=1M count=2048 status=progress
+
 chmod 600 /swapfile
+
 mkswap /swapfile
+
 cp /etc/fstab /etc/fstab.bak
-    - Back it up
+- Backs it up
+
 echo '/swapfile none swap sw 0 0' | tee -a /etc/fstab
+
 > cat /etc/fstab
-    - You see the /swapfile entry at the bottom
+- You see the /swapfile entry at the bottom
+
 > free -m
+
 > mount -a
-    - Tests fstab configuration
+- Tests fstab configuration
+
 swapon -a
 > free -m
+
 ## Timezone Configuration
+
 timedatectl list-timezones
+
 timedatectl set-timezone America/Denver
+
 systemctl enable systemd-timesyncd
+
 ## Hostname
+
 hostnamectl set-hostname <hostname>
+
 > cat /etc/hostname
+
 vim /etc/hosts
-    - 127.0.0.1 localhost
-    - 127.0.0.1 <hostname>
+- 127.0.0.1 localhost
+- 127.0.0.1 <hostname>
+
 > hostnamectl
+
 ## [Microcode](https://wiki.archlinux.org/title/microcode#:~:text=These%20updates%20provide%20bug%20fixes,updates%20to%20ensure%20system%20stability.)
-    - All arch users should install the right microcode for their processor, to ensure stability
+- All arch users should install the right microcode for their processor, to ensure stability
+
 > pacman -S amd-ucode
+
 > pacman -S intel-ucode
-    - Pick one of the above lines
+- Pick one of the above lines
 
 reboot
