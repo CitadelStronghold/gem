@@ -56,6 +56,12 @@ Extra functionality is then added through the use of the `gem` command.
 
 ---
 
+> > **gem tree**
+> 
+> > List all gems
+
+---
+
 ### /
 
 ---
