@@ -38,7 +38,8 @@ t
     - There are no downsides to using the LVM type
 
 p
-    - You see 'EFI System', 'Linux LVM'
+- You see 'EFI System', 'Linux LVM'
+
 w
 ## B | Formatting / LVM Setup
 mkfs.fat -F32 /dev/sda1
