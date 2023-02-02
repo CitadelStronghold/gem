@@ -31,15 +31,24 @@ Extra functionality is then added through the use of scripts available in the `/
 > >
 > > Used during [installation](Setup.md#gem)
 
-> > **bash /opt/gem/update.sh**
+> > **gem**
 > 
-> > Update all scripts via [the git repository](https://github.com/GeodeGames/gem-scripts)
+> > Update everything automatically
 
 ### s
 
+> > #### sudo
+>
+> > **gem s sudo**
+>
+> > Development Tools
+> > - `git`
+> > - `vim`
+> > - `which`
+
 > > #### dev
 >
-> > **bash /opt/gem/s/dev.sh**
+> > **gem s dev**
 >
 > > Development Tools
 > > - `git`
@@ -48,7 +57,7 @@ Extra functionality is then added through the use of scripts available in the `/
 
 > > #### [BTOP](https://github.com/aristocratos/btop)
 >
-> > **bash /opt/gem/s/btop.sh**
+> > **gem s btop**
 >
 > > ![Sample](https://github.com/aristocratos/btop/raw/main/Img/normal.png)
 
@@ -56,13 +65,13 @@ Extra functionality is then added through the use of scripts available in the `/
 
 > > #### core
 >
-> > **bash /opt/gem/s/net/core.sh**
+> > **gem s net/core**
 >
 > > Install `NetworkManager`
 
 > > #### wifi
 >
-> > **bash /opt/gem/s/net/wifi.sh**
+> > **gem s net/wifi**
 >
 > > WiFi Tools
 
