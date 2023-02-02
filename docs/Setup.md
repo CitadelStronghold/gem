@@ -41,75 +41,112 @@ p
 - You see 'EFI System', 'Linux LVM'
 
 w
+
 ## B | Formatting / LVM Setup
 mkfs.fat -F32 /dev/sda1
+
 pvcreate --dataalignment 1m /dev/sda2
+
 vgcreate volgroup0 /dev/sda2
+
 ## C
 lvcreate -L 24GB volgroup0 -n lv_root
-    - pacman will store packages here, you need some space
-    - You can purge /var/cache/pacman/pkg/ if you run out
-    - See below for automatic cleaning of this
+- pacman will store packages here, you need some space
+- You can purge /var/cache/pacman/pkg/ if you run out
+- See below for automatic cleaning of this
 lvcreate -l 100%FREE volgroup0 -n lv_home
+
 modprobe dm_mod
-    - Load kernel module into kernel
+- Load kernel module into kernel
+
 vgscan
+
 vgchange -ay
+
 ## D
 mkfs.ext4 /dev/volgroup0/lv_root
+
 mount /dev/volgroup0/lv_root /mnt
+
 mkfs.ext4 /dev/volgroup0/lv_home
+
 mkdir /mnt/home
+
 mount /dev/volgroup0/lv_home /mnt/home
+
 mkdir /mnt/etc
+
 genfstab -U -p /mnt >> /mnt/etc/fstab
+
 > cat /mnt/etc/fstab
-    - You see two entries: /, /home
+- You see two entries: /, /home
 
 ## Base Packages
 pacstrap -i /mnt base
+
 arch-chroot /mnt
+
 > pacman -S linux linux-headers
+
 > pacman -S linux-lts linux-lts-headers
-    - Pick one of the above lines, or do both based on your desired stability
-    - Having multiple kernels can save you if something is incompatible with the newer one
-    - You will be able to select which one at boot
-    - Accept default provider
+- Pick one of the above lines, or do both based on your desired stability
+- Having multiple kernels can save you if something is incompatible with the newer one
+- You will be able to select which one at boot
+- Accept default provider
+
 > pacman -S base-devel
-    - Probably will need it
-    - Accept defaults
+- Probably will need it
+- Accept defaults
+
 ## Networking Packages
+
 pacman -S networkmanager
+
 > pacman -S wpa_supplicant wireless_tools netctl
-    - Wireless support
+- Wireless support
+
 > pacman -S dialog
-    - Wifi menu when GUI is not working
+- Wifi menu when GUI is not working
+
 systemctl enable NetworkManager
+
 pacman -S lvm2
-    - Required regardless of partitioning setup type
+- Required regardless of partitioning setup type
+
 > pacman -S vim
-    - Pick a text editor
-    - nano, etc...
+- Pick a text editor
+- nano, etc...
+
 vim /etc/mkinitcpio.conf
 - Find HOOKS=
 - Add lvm2 between block and filesystems
+
 mkinitcpio -p linux
+
 mkinitcpio -p linux-lts
-    > Only if you also installed LTS
+- Only if you also installed LTS
+
 vim /etc/locale.gen
-    - Find yours (en_US.UTF-8)
+- Find yours (en_US.UTF-8)
+
 locale-gen
+
 passwd
-    - Root user password
+- Root user password
+
 useradd -m -g users -G wheel <username>
-    - -m makes a home
-    - -g is initial group
-    - wheel is a group for administrative commands
+- -m makes a home
+- -g is initial group
+- wheel is a group for administrative commands
+
 passwd <username>
+
 > which sudo
-    - Prove sudo is installed
+- Prove sudo is installed
+
 EDITOR=vim visudo
-    - Uncomment the "%wheel ALL=..." line
+- Uncomment the "%wheel ALL=..." line
+
 ## GRUB
 pacman -S grub efibootmgr dosfstools os-prober mtools
 mkdir /boot/EFI
