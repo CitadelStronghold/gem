@@ -182,7 +182,7 @@
 
 ---
 
-reboot
+> reboot
 
 ---
 
