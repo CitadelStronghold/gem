@@ -1,6 +1,6 @@
 #!/bin/bash
 
-GEM_FILES_PATH="${GEM_FILES_PATH:-./files}"
+GEM_FILES_PATH="${1:-./files}"
 
 TEMPLATE_PATH="/usr/share/archiso/configs/releng"
 PROFILE_PATH="/root/gemlive"
