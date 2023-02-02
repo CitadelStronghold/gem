@@ -109,13 +109,19 @@
 
 > bash /opt/gem/s/net/core.sh
 
-> > bash /opt/gem/s/net/wifi.sh
+> bash /opt/gem/s/net/wifi.sh
+- Optional
+
+---
 
 > pacman -S lvm2
 - Required regardless of partitioning setup type
+
 > vim /etc/mkinitcpio.conf
 - Find HOOKS=
 - Add lvm2 between block and filesystems
+
+---
 
 > mkinitcpio -p linux
 
