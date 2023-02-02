@@ -34,7 +34,7 @@ Extra functionality is then added through the use of scripts available in the `/
 
 ### Packages
 
-> > #### [BTOP](github.com/aristocratos/btop)
+> > #### [BTOP](https://github.com/aristocratos/btop)
 >
 > > **bash /opt/gem/s/btop.sh**
 >
