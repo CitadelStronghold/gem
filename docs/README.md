@@ -99,6 +99,7 @@ Extra functionality is then added through the use of the `gem` command.
 > > - `cmake`
 > > - `make`
 > > - `wget`
+> > - `unzip`
 > > - `base-devel`
 
 ---
