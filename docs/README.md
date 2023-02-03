@@ -85,6 +85,18 @@ Extra functionality is then added through the use of the `gem` command.
 
 ---
 
+> > **gem shutdown**
+> 
+> > Shutdown the OS
+
+---
+
+> > **gem reboot**
+> 
+> > Reboot the OS
+
+---
+
 ### /
 
 ---
