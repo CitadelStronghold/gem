@@ -100,6 +100,16 @@ Extra functionality is then added through the use of the `gem` command.
 
 ---
 
+### config/
+
+---
+
+> > **gem s config/pacman**
+>
+> > Enable parallel downloads for packages
+
+---
+
 ## [Releases](https://github.com/GeodeGames/gem/releases)
 The only supported architecture at present is `x86_64`.
 
