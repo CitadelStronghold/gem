@@ -140,6 +140,12 @@ Extra functionality is then added through the use of the `gem` command.
 
 ---
 
+> > **gem s config/fastboot**
+>
+> > 1. Reduce GRUB delay down to one second
+
+---
+
 ### dm/
 
 ---
