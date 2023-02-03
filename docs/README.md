@@ -33,6 +33,8 @@ Extra functionality is then added through the use of the `gem` command.
     1. [Guide](Setup.md)
     2. [Gem Installation Instructions](Setup.md#gem)
 4. Use the `gem` command as described below
+5. Install a display manager gem from `dm/`
+    - IE `gem s dm/gdm`
 
 ## Philosophy
 
@@ -128,6 +130,17 @@ Extra functionality is then added through the use of the `gem` command.
 > > 1. Enable parallel downloads for packages
 > > 2. Enable weekly pacman cache cleanup
 > > 3. Clean the cache immediately
+
+---
+
+### dm/
+
+---
+
+> > **gem s dm/gdm**
+>
+> > 1. Install GDM
+> > 2. Enable it
 
 ---
 
