@@ -146,6 +146,17 @@ Extra functionality is then added through the use of the `gem` command.
 
 ---
 
+### gui/
+
+---
+
+> > **gem s gui/hyprland**
+>
+> > 1. Installs hyprland
+> > 2. Builds inside of ~/hypr
+
+---
+
 ## [Releases](https://github.com/GeodeGames/gem/releases)
 The only supported architecture at present is `x86_64`.
 
