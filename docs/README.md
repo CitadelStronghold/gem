@@ -21,6 +21,7 @@ Extra functionality is then added through the use of the `gem` command.
 2. All scripts come with uninstall functionality, to undo their changes
 3. Scope of a script is as limited as possible
 4. All extended functionality is derived from a single command, `gem`
+5. Any configuration changes that scripts make should be printed
 
 ## Gems
 
