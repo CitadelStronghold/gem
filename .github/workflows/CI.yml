@@ -27,7 +27,7 @@ jobs:
           docker exec arch bash /opt/gem/binaries.sh /opt/gem /
 
           docker exec arch useradd -m -g users -G wheel user
-          docker exec arch echo '' | passwd --stdin user
+          docker exec arch echo '' | passwd
 
           docker exec arch gem
           docker exec arch sudo -u user gem s dev
