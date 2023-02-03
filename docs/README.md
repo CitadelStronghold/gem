@@ -23,6 +23,19 @@ Extra functionality is then added through the use of the `gem` command.
 4. All extended functionality is derived from a single command, `gem`
 5. Any configuration changes that scripts make should be printed
 
+## Example
+
+```
+# Update gems
+> gem
+
+# Configure pacman
+> gem s config/pacman
+
+# Install BTOP
+> gem s btop
+```
+
 ## Gems
 
 ### /
