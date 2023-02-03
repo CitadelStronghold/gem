@@ -113,14 +113,20 @@ Extra functionality is then added through the use of the `gem` command.
 > > - `wget`
 > > - `unzip`
 > > - `base-devel`
+>
+> > Installs `yay`
 
 ---
 
 > > **gem s [code](https://github.com/microsoft/vscode)**
 >
 > > Visual Studio Code
+
+---
+
+> > **gem s chrome**
 >
-> > - `code`
+> > Google Chrome
 
 ---
 
