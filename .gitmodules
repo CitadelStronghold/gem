@@ -1,0 +1,3 @@
+[submodule "gem-scripts"]
+	path = gem-scripts
+	url = https://github.com/GeodeGames/gem-scripts.git
