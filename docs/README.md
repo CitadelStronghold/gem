@@ -12,11 +12,17 @@ Extra functionality is then added through the use of the `gem` command.
 # Update gems
 > gem
 
+# List gems
+> gem tree
+
 # Configure pacman for parallel downloads at $(nproc)
 > gem s config/pacman
 
 # Install BTOP
 > gem s btop
+
+# Undo the pacman configuration changes
+> gem r config/pacman
 ```
 
 ## Installation
