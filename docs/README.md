@@ -116,6 +116,14 @@ Extra functionality is then added through the use of the `gem` command.
 
 ---
 
+> > **gem s [code](https://github.com/microsoft/vscode)**
+>
+> > Visual Studio Code
+>
+> > - `code`
+
+---
+
 > > **gem s [btop](https://github.com/aristocratos/btop)**
 >
 > > - `btop`
