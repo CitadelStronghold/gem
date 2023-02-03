@@ -184,16 +184,7 @@
 
 # Pacman Configuration
 
-> vim /etc/pacman.conf
-- Uncomment #ParallelDownloads
-
-> pacman -S pacman-contrib
-
-> paccache -r
-
-> systemctl start paccache.timer
-
-> systemctl status paccache.timer
+> gem s config/pacman
 
 # Timezone Configuration
 
