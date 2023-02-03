@@ -96,6 +96,9 @@ Extra functionality is then added through the use of the `gem` command.
 > > - `vim`
 > > - `which`
 > > - `tree`
+> > - `ninja`
+> > - `cmake`
+> > - `make`
 
 ---
 
