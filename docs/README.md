@@ -12,7 +12,7 @@ Extra functionality is then added through the use of the `gem` command.
 # Update gems
 > gem
 
-# Configure pacman
+# Configure pacman for parallel downloads at $(nproc)
 > gem s config/pacman
 
 # Install BTOP
