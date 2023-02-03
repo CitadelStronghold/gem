@@ -27,6 +27,8 @@ jobs:
           docker exec arch bash /opt/gem/binaries.sh /opt/gem /
 
           docker exec arch gem
+
+          docker exec arch pacman -S --noconfirm tree
           docker exec arch gem tree
 
   build:
