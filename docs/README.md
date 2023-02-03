@@ -6,6 +6,19 @@ A base installation is exactly the same as Arch Linux.
 
 Extra functionality is then added through the use of the `gem` command.
 
+## Example
+
+```
+# Update gems
+> gem
+
+# Configure pacman
+> gem s config/pacman
+
+# Install BTOP
+> gem s btop
+```
+
 ## Installation
 
 1. Download the ISO from the [releases](https://github.com/GeodeGames/gem/releases)
@@ -22,19 +35,6 @@ Extra functionality is then added through the use of the `gem` command.
 3. Scope of a script is as limited as possible
 4. All extended functionality is derived from a single command, `gem`
 5. Any configuration changes that scripts make should be printed
-
-## Example
-
-```
-# Update gems
-> gem
-
-# Configure pacman
-> gem s config/pacman
-
-# Install BTOP
-> gem s btop
-```
 
 ## Gems
 
