@@ -35,8 +35,7 @@ Extra functionality is then added through the use of the `gem` command.
 4. Use the `gem` command as described below
 5. Install a display manager gem from `dm/`
     - IE `gem s dm/gdm`
-6. Install a gui gem from `gui/`
-    - IE `gem s gui/hyprland`
+6. Install the gui gem: `gem s gui`
 
 ## Philosophy
 
@@ -162,10 +161,9 @@ Extra functionality is then added through the use of the `gem` command.
 
 ---
 
-> > **gem s gui/hyprland**
+> > **gem s gui**
 >
-> > 1. Installs hyprland
-> > 2. Builds inside of ~/hypr
+> > 1. Install Hyprland interface and other gui tools
 
 ---
 
