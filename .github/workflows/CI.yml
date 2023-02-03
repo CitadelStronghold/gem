@@ -27,11 +27,11 @@ jobs:
           docker exec arch bash /opt/gem/binaries.sh /opt/gem /
 
           docker exec arch gem
-          docker exec arch gem s dev
+          docker exec arch sudo -u nobody gem s dev
           docker exec arch gem tree
 
-          docker exec arch find /opt/gem/gems -type f -exec bash {} \;
-          docker exec arch find /opt/gem/gems -type f -exec bash {} r \;
+          docker exec arch find /opt/gem/gems -type f -exec sudo -u nobody bash {} \;
+          docker exec arch find /opt/gem/gems -type f -exec sudo -u nobody bash {} r \;
 
   build:
     runs-on: ubuntu-latest
@@ -57,7 +57,7 @@ jobs:
           gh release list | sed 's/|/ /' | awk '{print $1, $8}' | while read -r line; do gh release delete -y "$line"; done
         env:
           GH_TOKEN: ${{ github.token }}
-      
+
       - name: Release
         uses: softprops/action-gh-release@d4e8205d7e959a9107da6396278b2f1f07af0f9b
         with:
