@@ -106,7 +106,8 @@ Extra functionality is then added through the use of the `gem` command.
 
 > > **gem s config/pacman**
 >
-> > Enable parallel downloads for packages
+> > 1. Enable parallel downloads for packages
+> > 2. Enable parallel downloads for packages
 
 ---
 
