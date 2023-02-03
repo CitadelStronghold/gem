@@ -62,37 +62,37 @@ Extra functionality is then added through the use of the `gem` command.
 ---
 
 > > **gem**
-> 
+>
 > > Update gem automatically
 
 ---
 
 > > **gem s \<name\>**
-> 
+>
 > > Install a gem
 
 ---
 
 > > **gem r \<name\>**
-> 
+>
 > > Uninstall a gem
 
 ---
 
 > > **gem tree**
-> 
+>
 > > List all gems
 
 ---
 
 > > **gem shutdown**
-> 
+>
 > > Shutdown the OS
 
 ---
 
 > > **gem reboot**
-> 
+>
 > > Reboot the OS
 
 ---
@@ -201,4 +201,4 @@ The only supported architecture at present is `x86_64`.
 
 ## Submodules
 - [gem-scripts](https://github.com/GeodeGames/gem-scripts)
-    - `gem-scripts` is copied to `/opt/gem`
+    - `gem-scripts` is copied to `/opt/gem` on installations and in the ISO
