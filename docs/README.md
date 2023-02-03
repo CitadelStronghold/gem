@@ -118,15 +118,17 @@ Extra functionality is then added through the use of the `gem` command.
 
 ---
 
-> > **gem s [code](https://github.com/microsoft/vscode)**
->
-> > Visual Studio Code, Variant AUR `google-chrome`
-
----
-
 > > **gem s chrome**
 >
 > > Google Chrome
+
+---
+
+> > **gem s [code](https://github.com/microsoft/vscode)**
+>
+> > Visual Studio Code, Variant AUR `google-chrome`
+>
+> > Depends on `gem s chrome`
 
 ---
 
