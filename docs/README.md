@@ -35,6 +35,8 @@ Extra functionality is then added through the use of the `gem` command.
 4. Use the `gem` command as described below
 5. Install a display manager gem from `dm/`
     - IE `gem s dm/gdm`
+6. Install a gui gem from `gui/`
+    - IE `gem s gui/hyprland`
 
 ## Philosophy
 
