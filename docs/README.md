@@ -182,6 +182,12 @@ Extra functionality is then added through the use of the `gem` command.
 
 ---
 
+> > **gem s [bitwarden](https://bitwarden.com)**
+>
+> > Installs BitWarden
+
+---
+
 ### net/
 
 ---
