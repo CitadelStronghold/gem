@@ -186,13 +186,19 @@ Extra functionality is then added through the use of the `gem` command.
 
 ---
 
-### gui/
+### gui
 
 ---
 
 > > **gem s gui**
 >
-> > 1. Install Hyprland interface and other gui tools
+> > 1. Install Hyprland interface and other GUI tools
+
+---
+
+> > **gem s config/gui**
+>
+> > 1. Copy distribution-default configurations for the GUI tools
 
 ---
 
