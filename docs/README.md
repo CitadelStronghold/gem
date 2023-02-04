@@ -255,6 +255,8 @@ The official interface is Hyprland.
 
 > > **gem s config/gui**
 >
+> > **Warning: This overrides all configs**
+>
 > > 1. Copy distribution-default configurations for the GUI tools
 
 ---
