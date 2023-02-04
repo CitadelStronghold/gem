@@ -313,6 +313,7 @@ The only supported architecture at present is `x86_64`.
         - `yay -S mkinitcpio.conf`
         - `sudo vim /etc/mkinitcpio.conf`
         - Add `numlock` before encrypt
+        - `mkinitcpio -P`
 
 ## Resources
 
