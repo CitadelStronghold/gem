@@ -220,6 +220,7 @@ The official interface is Hyprland.
 > > - `grim`
 > > - `slurp`
 > > - `swappy`
+> > - `wl-clipboard`
 
 ---
 
