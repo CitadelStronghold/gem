@@ -224,6 +224,12 @@ The official interface is Hyprland.
 
 ---
 
+> > **gem s [swaylock](https://github.com/swaywm/swaylock)**
+>
+> > - `swaylock`
+
+---
+
 ### net/
 
 ---
