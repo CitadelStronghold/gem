@@ -233,6 +233,11 @@ Extra functionality is then added through the use of the `gem` command.
 ## [Releases](https://github.com/GeodeGames/gem/releases)
 The only supported architecture at present is `x86_64`.
 
+## Other Notes
+
+- Foot Terminal Copy Paste
+    - <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>C</kbd> / <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>V</kbd>
+
 ## Submodules
 - [gem-scripts](https://github.com/GeodeGames/gem-scripts)
     - `gem-scripts` is copied to `/opt/gem` on installations and in the ISO
