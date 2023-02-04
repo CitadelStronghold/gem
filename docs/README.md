@@ -168,6 +168,14 @@ Extra functionality is then added through the use of the `gem` command.
 
 ---
 
+> > **gem s audio**
+>
+> > - `alsa-utils`
+>
+> > Gives you `amixer` CLI
+
+---
+
 ### net/
 
 ---
