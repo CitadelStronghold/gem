@@ -97,6 +97,34 @@ Extra functionality is then added through the use of the `gem` command.
 
 ---
 
+### c
+
+---
+
+> > **gem c hypr**
+>
+> > Modify hyprland config
+
+---
+
+> > **gem c paper**
+>
+> > Modify hyprpaper config
+
+---
+
+> > **gem c foot**
+>
+> > Modify foot config
+
+---
+
+> > **gem c rofi**
+>
+> > Modify rofi config
+
+---
+
 ### /
 
 ---
