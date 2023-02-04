@@ -30,24 +30,23 @@ The official interface is Hyprland.
 ## Installation
 
 1. Download the ISO from the [releases](https://github.com/GeodeGames/gem/releases)
-2. Boot into the ISO on the desired machine
-3. Install Arch Linux + Gem
+1. Boot into the ISO on the desired machine
+1. Install Arch Linux + Gem
     1. [Guide](Setup.md)
-    2. [Gem Installation Instructions](Setup.md#gem)
-4. Use the `gem` command as described below
-5. Install a display manager gem from `dm/`
+    1. [Gem Installation Instructions](Setup.md#gem)
+1. Install a display manager gem from `dm/`
     - IE `gem s dm/gdm`
-6. Install the gui gem: `gem s gui`
-7. Install the gui config defaults: `gem s config/gui`
-8. Go through the gems below and install as needed
+1. Install the gui gem: `gem s gui`
+1. Install the gui config defaults: `gem s config/gui`
+1. Go through the gems below and install as needed
 
 ## Philosophy
 
 1. Multiple runs of a script produce the same result as a single run
-2. All scripts come with uninstall functionality, to undo their changes
-3. Scope of a script is as limited as possible
-4. All extended functionality is derived from a single command, `gem`
-5. Any configuration changes that scripts make should be printed
+1. All scripts come with uninstall functionality, to undo their changes
+1. Scope of a script is as limited as possible
+1. All extended functionality is derived from a single command, `gem`
+1. Any configuration changes that scripts make should be printed
 
 ## Gems
 
