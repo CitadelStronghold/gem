@@ -38,6 +38,8 @@ The official interface is Hyprland.
 5. Install a display manager gem from `dm/`
     - IE `gem s dm/gdm`
 6. Install the gui gem: `gem s gui`
+7. Install the gui config defaults: `gem s config/gui`
+8. Go through the gems below and install as needed
 
 ## Philosophy
 
