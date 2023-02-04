@@ -230,6 +230,12 @@ The official interface is Hyprland.
 
 ---
 
+> > **gem s bonsai**
+>
+> > - AUR `cbonsai`
+
+---
+
 ### net/
 
 ---
