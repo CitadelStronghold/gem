@@ -167,6 +167,8 @@ The official interface is Hyprland.
 
 > > **gem s [btop](https://github.com/aristocratos/btop)**
 >
+> > **Warning: Overrides config!**
+>
 > > - `btop`
 >
 > > ![Sample](https://github.com/aristocratos/btop/raw/main/Img/normal.png)
