@@ -151,6 +151,8 @@ The official interface is Hyprland.
 
 > > **gem s chrome**
 >
+> > Note: You will have to manually adjust the download folder to the lower-case variant
+>
 > > Google Chrome
 
 ---
