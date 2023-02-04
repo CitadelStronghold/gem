@@ -215,8 +215,11 @@ The official interface is Hyprland.
 
 > > **gem s screenshot**
 >
+> > See [swappy](https://github.com/jtheoof/swappy)
+>
 > > - `grim`
 > > - `slurp`
+> > - `swappy`
 
 ---
 
