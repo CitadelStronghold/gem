@@ -188,6 +188,12 @@ Extra functionality is then added through the use of the `gem` command.
 
 ---
 
+> > **gem s [discord](https://discord.com)**
+>
+> > Installs Discord
+
+---
+
 ### net/
 
 ---
