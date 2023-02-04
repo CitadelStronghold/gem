@@ -233,7 +233,7 @@ The official interface is Hyprland.
 > > **gem s cute**
 >
 > > - AUR `cbonsai`
-> > - `neovim`
+> > - `neofetch`
 
 ---
 
