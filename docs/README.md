@@ -220,15 +220,15 @@ The official interface is Hyprland.
 > > **gem s config/pacman**
 >
 > > 1. Enable parallel downloads for packages
-> > 2. Enable weekly pacman cache cleanup
-> > 3. Clean the cache immediately
+> > 1. Enable weekly pacman cache cleanup
+> > 1. Clean the cache immediately
 
 ---
 
 > > **gem s config/boot**
 >
 > > 1. Reduce GRUB delay down to one second
-> > 2. Build the GRUB config
+> > 1. Build the GRUB config
 
 ---
 
@@ -239,7 +239,7 @@ The official interface is Hyprland.
 > > **gem s dm/gdm**
 >
 > > 1. Install GDM
-> > 2. Enable it
+> > 1. Enable it
 
 ---
 
