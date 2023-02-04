@@ -230,9 +230,11 @@ The official interface is Hyprland.
 
 ---
 
-> > **gem s bonsai**
+> > **gem s cute**
 >
 > > - AUR `cbonsai`
+> > - `lolcat`
+> > - `neovim`
 
 ---
 
