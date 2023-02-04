@@ -38,6 +38,7 @@ mkarchiso -v -w "$(pwd)"/build -o "$(pwd)"/bin $PROFILE_PATH
 
 if [[ -d "/gem" ]]; then
     cp /root/bin/*.iso /gem/gem.iso
+    sha256sum /gem/gem.iso > /gem/sha256sum.txt
 fi
 
 ##
