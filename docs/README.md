@@ -258,6 +258,10 @@ The only supported architecture at present is `x86_64`.
 - Foot Terminal Copy Paste
     - <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>C</kbd> / <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>V</kbd>
 
+## Resources
+
+- [arewewaylandyet?](https://arewewaylandyet.com/)
+
 ## Submodules
 - [gem-scripts](https://github.com/GeodeGames/gem-scripts)
     - `gem-scripts` is copied to `/opt/gem` on installations and in the ISO
