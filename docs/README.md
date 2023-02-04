@@ -213,6 +213,13 @@ The official interface is Hyprland.
 
 ---
 
+> > **gem s screenshot**
+>
+> > - `grim`
+> > - `slurp`
+
+---
+
 ### net/
 
 ---
