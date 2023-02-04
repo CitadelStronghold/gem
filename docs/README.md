@@ -199,6 +199,12 @@ The official interface is Hyprland.
 
 ---
 
+> > **gem s vmware**
+>
+> > Installs VMware Workstation Pro
+
+---
+
 ### net/
 
 ---
