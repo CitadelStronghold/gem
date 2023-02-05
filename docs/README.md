@@ -135,14 +135,17 @@ The official interface is Hyprland.
 > > **gem s dev**
 >
 > > - `git`
-> > - `vim`
+> > - `neovim`
+> > - `helix`
+> > - `exa`
 > > - `which`
 > > - `tree`
 > > - `ninja`
 > > - `cmake`
 > > - `make`
-> > - `wget`
+> > - `get`
 > > - `unzip`
+> > - `fuse2`
 > > - `base-devel`
 >
 > > Installs `yay`
