@@ -43,6 +43,8 @@
 
 > w
 
+**Also you may use `cfdisk`**
+
 ---
 
 > mkfs.fat -F32 /dev/sda1
