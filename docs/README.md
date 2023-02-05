@@ -245,6 +245,12 @@ The official interface is Hyprland.
 
 ---
 
+> > **gem s spotify**
+>
+> > - `spotify`
+
+---
+
 ### net/
 
 ---
