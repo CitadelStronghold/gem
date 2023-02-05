@@ -239,6 +239,12 @@ The official interface is Hyprland.
 
 ---
 
+> > **gem s steam**
+>
+> > - `steam`
+
+---
+
 ### net/
 
 ---
