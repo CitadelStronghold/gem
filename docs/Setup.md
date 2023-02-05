@@ -119,7 +119,7 @@
 > pacman -S lvm2
 - Required regardless of partitioning setup type
 
-> vim /etc/mkinitcpio.conf
+> helix /etc/mkinitcpio.conf
 - Find HOOKS=
 - Add lvm2 between block and filesystems
 
@@ -130,7 +130,7 @@
 
 ---
 
-> vim /etc/locale.gen
+> helix /etc/locale.gen
 - Find yours (en_US.UTF-8)
 
 > locale-gen
@@ -152,7 +152,7 @@
 
 > passwd \<username\>
 
-> EDITOR=vim visudo
+> EDITOR=helix visudo
 - Uncomment the "%wheel ALL=..." line
 - Add `Defaults timestamp_timeout=60`
     - This makes a password only be required each hour for `sudo`
@@ -205,7 +205,7 @@
 
 > cat /etc/hostname
 
-> vim /etc/hosts
+> helix /etc/hosts
 - 127.0.0.1 localhost
 - 127.0.0.1 \<hostname\>
 

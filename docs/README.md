@@ -325,7 +325,7 @@ The only supported architecture at present is `x86_64`.
 - [Numlock On Boot](https://wiki.archlinux.org/title/Activating_numlock_on_bootup)
     - The first solution is preferable
         - `yay -S mkinitcpio.conf`
-        - `sudo vim /etc/mkinitcpio.conf`
+        - `sudo helix /etc/mkinitcpio.conf`
         - Add `numlock` before encrypt
         - `mkinitcpio -P`
 
