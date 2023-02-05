@@ -158,6 +158,13 @@ The official interface is Hyprland.
 
 ---
 
+> > **gem s zsh**
+>
+> > `zsh`
+> > AUR `zsh-theme-powerlevel10k-git`
+
+---
+
 > > **gem s chrome**
 >
 > > Note: You will have to manually adjust the download folder to the lower-case variant
