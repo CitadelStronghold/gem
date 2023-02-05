@@ -151,7 +151,7 @@
 
 > EDITOR=vim visudo
 - Uncomment the "%wheel ALL=..." line
-- Add `Defaults:USER timestamp_timeout=60`
+- Add `Defaults timestamp_timeout=60`
     - This makes a password only be required each hour for `sudo`
 
 # GRUB
