@@ -44,6 +44,7 @@
 > w
 
 **Also you may use `cfdisk`**
+[Further Guide](networklessons.com/uncategorized/extend-lvm-partition)
 
 ---
 
