@@ -149,6 +149,15 @@ The official interface is Hyprland.
 
 ---
 
+> > **gem s fonts**
+>
+> > Install fonts
+>
+> > [`Iosevka`](https://github.com/be5invis/Iosevka)
+> > [`Iosevka Glyphs`](https://nerdfonts.com)
+
+---
+
 > > **gem s chrome**
 >
 > > Note: You will have to manually adjust the download folder to the lower-case variant
@@ -247,7 +256,7 @@ The official interface is Hyprland.
 
 > > **gem s spotify**
 >
-> > - `spotify`
+> > [spotify-qt](https://github.com/kraxarn/spotify-qt)
 
 ---
 
