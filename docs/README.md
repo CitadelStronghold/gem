@@ -264,6 +264,12 @@ The official interface is Hyprland.
 
 ---
 
+> > **gem s [remapper](https://github.com/sezanzeb/input-remapper.git)**
+>
+> > - AUR `input-remapper-git`
+
+---
+
 > > **gem s spotify**
 >
 > > [spotify-qt](https://github.com/kraxarn/spotify-qt)
