@@ -129,6 +129,12 @@ The official interface is Hyprland.
 
 ---
 
+> > **gem c rofimoji**
+>
+> > Modify rofimoji config
+
+---
+
 ### /
 
 ---
