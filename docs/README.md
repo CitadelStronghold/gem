@@ -37,6 +37,10 @@ The official interface is Hyprland.
 1. Install a display manager gem from `dm/`
     - IE `gem s dm/gdm`
 1. If you are using an `nvidia` card, run `gem s nvidia`
+    - `sudo helix /etc/mkinitcpio.conf`
+        - Add `nvidia nvidia_modeset nvidia_uvm nvidia_drm` to `MODULES`
+        - Remove `kms` from hooks
+    - `sudo mkinitcpio -P`
 1. Install the gui gem: `gem s gui`
 1. Install the gui config defaults: `gem s config/gui`
 1. Install the fonts: `gem s fonts`
@@ -388,16 +392,17 @@ The official interface is Hyprland.
 ## [Releases](https://github.com/GeodeGames/gem/releases)
 The only supported architecture at present is `x86_64`.
 
-## Other Notes
+## **Other Notes**
 
-- Foot Terminal Copy Paste
-    - <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>C</kbd> / <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>V</kbd>
 - [Numlock On Boot](https://wiki.archlinux.org/title/Activating_numlock_on_bootup)
     - The first solution is preferable
         - `yay -S mkinitcpio-numlock`
         - `sudo helix /etc/mkinitcpio.conf`
         - Add `numlock` before encrypt
         - `sudo mkinitcpio -P`
+
+- Foot Terminal Copy Paste
+    - <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>C</kbd> / <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>V</kbd>
 
 ## Resources
 
