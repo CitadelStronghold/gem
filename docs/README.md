@@ -36,6 +36,7 @@ The official interface is Hyprland.
     1. [Gem Installation Instructions](Setup.md#gem)
 1. Install a display manager gem from `dm/`
     - IE `gem s dm/gdm`
+1. If you are using an `nvidia` card, run `gem s nvidia`
 1. Install the gui gem: `gem s gui`
 1. Install the gui config defaults: `gem s config/gui`
 1. Install the fonts: `gem s fonts`
@@ -305,6 +306,12 @@ The official interface is Hyprland.
 > > [nvm](https://github.com/nvm-sh/nvm)
 >
 > > `nvm install 18`
+
+---
+
+> > **gem s docker**
+>
+> > `docker`
 
 ---
 
