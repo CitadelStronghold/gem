@@ -169,7 +169,7 @@
 
 - Grub config is in /etc/default/grub, configure it before running the next command if you want
 
-> gem s config/boot
+> gem s config/grub
 
 ---
 

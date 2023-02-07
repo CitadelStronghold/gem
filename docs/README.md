@@ -43,7 +43,7 @@ The official interface is Hyprland.
     - `sudo mkinitcpio -P`
     - `sudo helix /etc/default/grub`
         - Change `GRUB_CMDLINE_LINUX=""` to `GRUB_CMDLINE_LINUX="nvidia-drm.modeset=1"`
-        - Run `gem s config/boot`
+        - Run `gem s config/grub`
 1. Install the gui gem: `gem s gui`
 1. Install the gui config defaults: `gem s config/gui`
 1. Install the fonts: `gem s fonts`
@@ -356,7 +356,7 @@ The official interface is Hyprland.
 
 ---
 
-> > **gem s config/boot**
+> > **gem s config/grub**
 >
 > > 1. Reduce GRUB delay down to one second
 > > 1. Build the GRUB config
