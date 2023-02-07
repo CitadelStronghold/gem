@@ -6,7 +6,7 @@ A base installation is exactly the same as Arch Linux.
 
 Extra functionality is then added through the use of the `gem` command.
 
-The official interface is Hyprland.
+The official and default interface is [Hyprland](https://github.com/hyprwm/Hyprland.git).
 
 ## Example
 
