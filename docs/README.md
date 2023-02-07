@@ -40,6 +40,7 @@ The official interface is Hyprland.
 1. Install the gui config defaults: `gem s config/gui`
 1. Install the fonts: `gem s fonts`
 1. Configure monitors from `gem c hypr`
+1. Reboot
 1. Go through the gems below and install as needed
 
 ## Philosophy
