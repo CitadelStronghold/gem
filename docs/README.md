@@ -201,6 +201,8 @@ The official interface is Hyprland.
 > > Depends on `gem s chrome` for web authentication
 >
 > > Note: You will have to enter your `Monokai Pro` key again, if you have one
+>
+> > Note: You will also likely need `gem s clang`
 
 ---
 
