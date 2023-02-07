@@ -207,6 +207,13 @@ The official interface is Hyprland.
 
 ---
 
+> > **gem s cute**
+>
+> > - AUR `cbonsai`
+> > - `neofetch`
+
+---
+
 > > **gem s audio**
 >
 > > - `alsa-utils`
@@ -263,13 +270,6 @@ The official interface is Hyprland.
 > > **gem s [swaylock](https://github.com/swaywm/swaylock)**
 >
 > > - AUR `swaylock-effects`
-
----
-
-> > **gem s cute**
->
-> > - AUR `cbonsai`
-> > - `neofetch`
 
 ---
 
