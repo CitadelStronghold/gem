@@ -312,6 +312,12 @@ The official and default interface is [Hyprland](https://github.com/hyprwm/Hyprl
 
 ---
 
+> > **gem s vlc**
+>
+> > - `vlc`
+
+---
+
 > > **gem s [remapper](https://github.com/sezanzeb/input-remapper.git)**
 >
 > > - AUR `input-remapper-git`
