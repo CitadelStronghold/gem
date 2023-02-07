@@ -208,6 +208,8 @@ The official and default interface is [Hyprland](https://github.com/hyprwm/Hyprl
 >
 > > Note: You will have to manually install userstyles
 >
+> > Note: If you do not want Chrome scaling, alter `/usr/share/applications/google-chrome.desktop`
+>
 > > Google Chrome
 
 ---
