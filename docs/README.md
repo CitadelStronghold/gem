@@ -43,6 +43,9 @@ The official interface is Hyprland.
 1. Reboot
     - Select Hyprland in the dropdown
 1. Go through the gems below and install as needed
+1. Configure `git`
+    - `git config --global user.email "you@example.com"`
+    - `git config --global user.name "Name"`
 1. Reboot again
 
 ## Philosophy
@@ -195,7 +198,7 @@ The official interface is Hyprland.
 >
 > > Visual Studio Code, Variant AUR `google-chrome`
 >
-> > Depends on `gem s chrome`
+> > Depends on `gem s chrome` for web authentication
 
 ---
 
