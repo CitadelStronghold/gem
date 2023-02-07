@@ -271,3 +271,5 @@ su
 # Done
 
 > reboot
+
+- Continue [original instructions](https://github.com/GeodeGames/gem#installation)
