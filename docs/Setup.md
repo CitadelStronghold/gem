@@ -120,10 +120,8 @@
 - Find HOOKS=
 - Add lvm2 between block and filesystems
 
-> mkinitcpio -p linux
-
-> mkinitcpio -p linux-lts
-- Only if you also installed LTS
+> mkinitcpio -P
+- Processes `-p linux` and `-p linux-lts` if you have it
 
 ---
 
