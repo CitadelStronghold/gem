@@ -298,6 +298,12 @@ The official interface is Hyprland.
 
 ---
 
+> > **gem s nvm**
+>
+> > [nvm](https://github.com/nvm-sh/nvm)
+
+---
+
 ### net/
 
 ---
