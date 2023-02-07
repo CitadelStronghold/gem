@@ -334,8 +334,7 @@ The official interface is Hyprland.
 > >
 > > 1. `sudo helix /etc/mkinitcpio.conf`
 >
-> > 2. Add `numlock`
-> > - Before encrypt, if you have it
+> > 2. Add `numlock` (Before encrypt, if you have it)
 >
 > > 3. `sudo mkinitcpio -P`
 
