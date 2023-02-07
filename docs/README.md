@@ -367,7 +367,7 @@ The only supported architecture at present is `x86_64`.
         - `yay -S mkinitcpio-numlock`
         - `sudo helix /etc/mkinitcpio.conf`
         - Add `numlock` before encrypt
-        - `mkinitcpio -P`
+        - `sudo mkinitcpio -P`
 
 ## Resources
 
