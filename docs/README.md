@@ -293,6 +293,12 @@ The official interface is Hyprland.
 
 ---
 
+> > **gem s veracrypt**
+>
+> > `veracrypt`
+
+---
+
 ### net/
 
 ---
