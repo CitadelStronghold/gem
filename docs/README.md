@@ -328,6 +328,19 @@ The official interface is Hyprland.
 
 ---
 
+> > **gem s [numlock](https://wiki.archlinux.org/title/Activating_numlock_on_bootup)**
+>
+> > - AUR `mkinitcpio-numlock`
+> >
+> > 1. `sudo helix /etc/mkinitcpio.conf`
+>
+> > 2. Add `numlock`
+        - Before encrypt, if you have it
+>
+> > 3. `sudo mkinitcpio -P`
+
+---
+
 ### net/
 
 ---
@@ -396,13 +409,6 @@ The official interface is Hyprland.
 The only supported architecture at present is `x86_64`.
 
 ## **Other Notes**
-
-- [Numlock On Boot](https://wiki.archlinux.org/title/Activating_numlock_on_bootup)
-    - The first solution is preferable
-        - `yay -S mkinitcpio-numlock`
-        - `sudo helix /etc/mkinitcpio.conf`
-        - Add `numlock` before encrypt
-        - `sudo mkinitcpio -P`
 
 - Foot Terminal Copy Paste
     - <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>C</kbd> / <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>V</kbd>
