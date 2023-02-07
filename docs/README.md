@@ -40,9 +40,8 @@ The official and default interface is [Hyprland](https://github.com/hyprwm/Hyprl
     - `gem c init`
         - Add `nvidia nvidia_modeset nvidia_uvm nvidia_drm` to `MODULES`
         - Remove `kms` from hooks
-    - `sudo helix /etc/default/grub`
+    - `gem c grub`
         - Change `GRUB_CMDLINE_LINUX=""` to `GRUB_CMDLINE_LINUX="nvidia-drm.modeset=1"`
-        - Run `gem s config/grub`
 1. Install the gui gem: `gem s gui`
 1. Install the gui config defaults: `gem s config/gui`
 1. Install the fonts: `gem s fonts`
@@ -151,7 +150,13 @@ The official and default interface is [Hyprland](https://github.com/hyprwm/Hyprl
 
 > > **gem c init**
 >
-> > Modify `/etc/mkinitcpio.conf`, then run `mkinitcpio -P` automatically
+> > Modify `/etc/mkinitcpio.conf`, then runs `mkinitcpio -P` for you
+
+---
+
+> > **gem c grub**
+>
+> > Modify `/etc/default/grub`, then runs `gem s config/grub` for you
 
 ---
 
