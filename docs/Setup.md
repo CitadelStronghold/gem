@@ -173,6 +173,13 @@
 
 ---
 
+> gem s net/core
+
+> gem s net/wifi
+- Optional
+
+---
+
 > exit
 
 > umount -a
@@ -187,11 +194,6 @@
 ---
 
 > gem s dev
-
-> gem s net/core
-
-> gem s net/wifi
-- Optional
 
 ---
 
