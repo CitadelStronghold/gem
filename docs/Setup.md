@@ -203,13 +203,19 @@
 
 > gem s config/pacman
 
+---
+
+su
+
+---
+
 # Timezone Configuration
 
 > timedatectl list-timezones
 
-> sudo timedatectl set-timezone America/Denver
+> timedatectl set-timezone America/Denver
 
-> sudo systemctl enable systemd-timesyncd
+> systemctl enable systemd-timesyncd
 
 # Hostname
 
