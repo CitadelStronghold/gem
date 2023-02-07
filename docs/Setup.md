@@ -165,9 +165,7 @@
 
 > cp /usr/share/locale/en\@quot/LC_MESSAGES/grub.mo /boot/grub/locale/en.mo
 
-- Grub config is in /etc/default/grub, configure it before running the next command if you want
-
-> gem s config/grub
+> gem c grub (Or `gem s config/grub` if you have no configuration changes)
 
 ---
 
