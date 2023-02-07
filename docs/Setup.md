@@ -90,6 +90,10 @@
 - You see two entries: `/`, `/home`
 
 # Gem
+
+> gem
+- Updates gem in case you have an outdated ISO
+
 > gem install /mnt
 - Installs [gem](https://github.com/GeodeGames/gem) scripts into `/mnt/opt/gem`
 
