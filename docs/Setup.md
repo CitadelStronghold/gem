@@ -113,8 +113,8 @@
 
 ---
 
-> pacman -S lvm2
-- Required regardless of partitioning setup type
+> pacman -S lvm2 helix
+- `lvm2` is required regardless of partitioning setup type
 
 > helix /etc/mkinitcpio.conf
 - Find HOOKS=
