@@ -249,6 +249,8 @@ The official interface is Hyprland.
 
 > > **gem s screenshot**
 >
+> > Test by hitting `Print Screen`
+>
 > > See [swappy](https://github.com/jtheoof/swappy)
 >
 > > - `grim`
