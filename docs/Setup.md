@@ -207,9 +207,9 @@
 
 > timedatectl list-timezones
 
-> timedatectl set-timezone America/Denver
+> sudo timedatectl set-timezone America/Denver
 
-> systemctl enable systemd-timesyncd
+> sudo systemctl enable systemd-timesyncd
 
 # Hostname
 
