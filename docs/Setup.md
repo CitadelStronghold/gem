@@ -111,13 +111,6 @@
 - You may select which one at boot
 - *Accept the default package provider*
 
-> gem s dev
-
-> gem s net/core
-
-> gem s net/wifi
-- Optional
-
 ---
 
 > pacman -S lvm2
@@ -188,6 +181,15 @@
 - Errors are normal here
 
 > reboot
+
+---
+
+> gem s dev
+
+> gem s net/core
+
+> gem s net/wifi
+- Optional
 
 ---
 
