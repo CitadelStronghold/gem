@@ -315,6 +315,8 @@ The official and default interface is [Hyprland](https://github.com/hyprwm/Hyprl
 > > [spotify-qt](https://github.com/kraxarn/spotify-qt)
 >
 > > **Note: You must configure `~/.config/spotifyd`**
+>
+> > - Subsequently, configure the client to be `/usr/bin/spotifyd` in `spotify-qt`
 
 ---
 
