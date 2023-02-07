@@ -182,6 +182,10 @@
 
 ---
 
+- Log into your user account
+
+---
+
 > gem s dev
 
 > gem s net/core
