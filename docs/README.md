@@ -150,6 +150,12 @@ The official and default interface is [Hyprland](https://github.com/hyprwm/Hyprl
 
 ---
 
+> > **gem c init**
+>
+> > Modify `/etc/mkinitcpio.conf`, then rebuild automatically
+
+---
+
 ### /
 
 ---
