@@ -313,6 +313,8 @@ The official and default interface is [Hyprland](https://github.com/hyprwm/Hyprl
 > > **gem s spotify**
 >
 > > [spotify-qt](https://github.com/kraxarn/spotify-qt)
+>
+> > **Note: You must configure `~/.config/spotifyd`**
 
 ---
 
