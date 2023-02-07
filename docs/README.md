@@ -179,6 +179,7 @@ The official interface is Hyprland.
 >
 > > Note: You will have to manually adjust the download folder to the lower-case variant
 > > Note: You will have to manually adjust the font to one that supports emojis
+> > Note: You will have to manually install userstyles
 >
 > > Google Chrome
 
