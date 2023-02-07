@@ -41,6 +41,9 @@ The official interface is Hyprland.
         - Add `nvidia nvidia_modeset nvidia_uvm nvidia_drm` to `MODULES`
         - Remove `kms` from hooks
     - `sudo mkinitcpio -P`
+    - `sudo helix /etc/default/grub`
+        - Change `GRUB_CMDLINE_LINUX=""` to `GRUB_CMDLINE_LINUX="nvidia-drm.modeset=1"`
+        - Run `gem s config/boot`
 1. Install the gui gem: `gem s gui`
 1. Install the gui config defaults: `gem s config/gui`
 1. Install the fonts: `gem s fonts`
