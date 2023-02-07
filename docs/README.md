@@ -393,6 +393,8 @@ The official interface is Hyprland.
 > > **gem s gui**
 >
 > > 1. Install Hyprland interface and other GUI tools
+>
+> > Note: Try to do this while you are not running the `Hyprland` binary...
 
 ---
 
