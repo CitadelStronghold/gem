@@ -429,6 +429,8 @@ The only supported architecture at present is `x86_64`.
 
 ## **Other Notes**
 
+- [No Sudo Delay on Failure](https://unix.stackexchange.com/questions/658771/remove-delay-after-wrong-sudo-password-entry-on-arch-linux)
+
 - Foot Terminal Copy Paste
     - <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>C</kbd> / <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>V</kbd>
 
