@@ -37,10 +37,9 @@ The official and default interface is [Hyprland](https://github.com/hyprwm/Hyprl
 1. Install a display manager gem from `dm/`
     - IE `gem s dm/gdm`
 1. If you are using an `nvidia` card, run `gem s nvidia`
-    - `sudo helix /etc/mkinitcpio.conf`
+    - `gem c init`
         - Add `nvidia nvidia_modeset nvidia_uvm nvidia_drm` to `MODULES`
         - Remove `kms` from hooks
-    - `sudo mkinitcpio -P`
     - `sudo helix /etc/default/grub`
         - Change `GRUB_CMDLINE_LINUX=""` to `GRUB_CMDLINE_LINUX="nvidia-drm.modeset=1"`
         - Run `gem s config/grub`
@@ -338,11 +337,9 @@ The official and default interface is [Hyprland](https://github.com/hyprwm/Hyprl
 >
 > > - AUR `mkinitcpio-numlock`
 > >
-> > 1. `sudo helix /etc/mkinitcpio.conf`
+> > 1. `gem c init`
 >
 > > 2. Add `numlock` (Before encrypt, if you have it)
->
-> > 3. `sudo mkinitcpio -P`
 
 ---
 

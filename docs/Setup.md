@@ -116,12 +116,10 @@
 > pacman -S lvm2 helix
 - `lvm2` is required regardless of partitioning setup type
 
-> helix /etc/mkinitcpio.conf
+> gem c init
 - Find HOOKS=
 - Add lvm2 between block and filesystems
-
-> mkinitcpio -P
-- Processes `-p linux` and `-p linux-lts` if you have it
+- Automaticall rebuilds for `-p linux` and (maybe) `-p linux-lts`
 
 ---
 
