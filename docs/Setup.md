@@ -173,6 +173,8 @@
 
 ---
 
+> gem s base
+
 > gem s net/core
 
 > gem s net/wifi
