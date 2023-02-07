@@ -97,6 +97,12 @@
 > gem install /mnt
 - Installs [gem](https://github.com/GeodeGames/gem) scripts into `/mnt/opt/gem`
 
+> pacman -Syu
+- Update packages on live ISO
+
+> gem s config/pacman
+- Quicker parallelization during install
+
 # Pacstrap
 > pacstrap -i /mnt base
 
