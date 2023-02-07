@@ -2,11 +2,13 @@
 #
 # The values are relative pathnames from the home directory and
 # will be translated on a per-path-element basis into the users locale
-DESKTOP=desktop
+
 DOWNLOAD=downloads
+DOCUMENTS=work
+
+# DESKTOP=desktop
 # TEMPLATES=templates
 # PUBLICSHARE=public
-# DOCUMENTS=Documents
 # MUSIC=Music
 # PICTURES=Pictures
 # VIDEOS=Videos
