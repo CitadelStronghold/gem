@@ -285,6 +285,14 @@ The official and default interface is [Hyprland](https://github.com/hyprwm/Hyprl
 
 ---
 
+> > **gem s obs**
+>
+> > **Not working!**
+>
+> > `obs-studio`
+
+---
+
 > > **gem s screenshot**
 >
 > > Test by hitting `Print Screen`
