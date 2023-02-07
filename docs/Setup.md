@@ -163,9 +163,9 @@
 > mkdir -p /boot/grub/locale
 - It probably already exists, can check and see
 
-> `cp /usr/share/locale/en\@quot/LC_MESSAGES/grub.mo /boot/grub/locale/en.mo`
+> cp /usr/share/locale/en\@quot/LC_MESSAGES/grub.mo /boot/grub/locale/en.mo
 
-> `gem c grub` (Or `gem s config/grub` if you have no configuration changes)
+> gem c grub (Or `gem s config/grub` if you have no configuration changes)
 
 ---
 
