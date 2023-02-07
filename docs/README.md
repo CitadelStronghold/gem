@@ -372,6 +372,12 @@ The official and default interface is [Hyprland](https://github.com/hyprwm/Hyprl
 
 ---
 
+> > **gem s [brisqi](https://brisqi.com)**
+>
+> > Note: Additionally, establish backups.
+
+---
+
 ### net/
 
 ---
