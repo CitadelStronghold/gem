@@ -41,6 +41,7 @@ The official interface is Hyprland.
 1. Install the fonts: `gem s fonts`
 1. Configure monitors from `gem c hypr`
 1. Reboot
+    - Select Hyprland in the dropdown
 1. Go through the gems below and install as needed
 
 ## Philosophy
