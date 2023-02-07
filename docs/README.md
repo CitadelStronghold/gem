@@ -306,6 +306,12 @@ The official interface is Hyprland.
 
 ---
 
+> > **gem s clang**
+>
+> > `clang`
+
+---
+
 ### net/
 
 ---
