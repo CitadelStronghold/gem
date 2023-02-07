@@ -299,12 +299,6 @@ The official interface is Hyprland.
 
 ---
 
-> > **gem s octopi**
->
-> > `octopi`
-
----
-
 ### net/
 
 ---
