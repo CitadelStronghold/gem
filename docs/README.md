@@ -239,7 +239,7 @@ The official interface is Hyprland.
 
 ---
 
-> > **gem s [flameshot](https://flameshot.org)**
+> > ~~**gem s [flameshot](https://flameshot.org)**~~
 >
 > > **Not working!**
 >
