@@ -264,6 +264,10 @@
 > swapon -a
 > free -m
 
+# Disable Root User Login
+
+> passwd -l root
+
 ---
 
 # Done
