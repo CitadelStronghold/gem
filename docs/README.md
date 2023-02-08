@@ -360,6 +360,12 @@ The official and default compositor is [Hyprland](https://github.com/hyprwm/Hypr
 
 ---
 
+> > **gem s deno**
+>
+> > - `deno`
+
+---
+
 > > **gem s docker**
 >
 > > - `docker`
