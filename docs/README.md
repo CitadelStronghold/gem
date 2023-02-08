@@ -256,14 +256,6 @@ The official and default interface is [Hyprland](https://github.com/hyprwm/Hyprl
 
 ---
 
-> > **gem s audio**
->
-> > - `alsa-utils`
->
-> > Gives you `amixer` CLI
-
----
-
 > > **gem s [joplin](https://joplinapp.org)**
 >
 > > Installs Joplin
