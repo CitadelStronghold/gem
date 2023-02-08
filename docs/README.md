@@ -200,7 +200,7 @@ The official and default compositor is [Hyprland](https://github.com/hyprwm/Hypr
 > > - `zsh`
 > > - AUR `zsh-theme-powerlevel10k-git`
 >
-> > Note: Must be installed from within a terminal in Hyprland, in order to have access to the correct font.
+> > Note: Must be installed from within a terminal in Hyprland, in order to have access to the correct font
 
 ---
 
@@ -222,15 +222,15 @@ The official and default compositor is [Hyprland](https://github.com/hyprwm/Hypr
 >
 > > Note: You will have to manually adjust the download folder to the lower-case variant
 >
-> > Note: You will have to manually adjust the font to one that supports emojis
->
-> > Note: You will have to manually install userstyles
+> > Note: You will have to sign in to sync
 >
 > > Note: You will have to go to `chrome://flags` and manually disable smooth scrolling
 >
 > > Note: You will have to go to `chrome://flags` and manually enable GPU rendering
 >
-> > Note: You will have to sign in to sync
+> > Note: You will have to manually adjust the font to one that supports emojis
+>
+> > Note: You will have to manually install userstyles
 >
 > > Note: To further adjust scaling, use `gem c hypr`
 >
