@@ -327,9 +327,11 @@ The official and default interface is [Hyprland](https://github.com/hyprwm/Hyprl
 >
 > > 1. Set `Settings` > `Spotify` > `General` to `/usr/bin/spotifyd`
 >
-> > 2. Set `Settings` > `Spotify` > `Configuration` > `Use global config` to `true`
+> > 2. Set `Settings` > `Spotify` > `General` > `Start with app` to `true`
 >
-> > 3. Configure `~/.config/spotifyd/spotifyd.conf`
+> > 3. Set `Settings` > `Spotify` > `Configuration` > `Use global config` to `true`
+>
+> > 4. Configure `~/.config/spotifyd/spotifyd.conf`
 
 ---
 
