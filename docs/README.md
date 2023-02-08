@@ -325,7 +325,7 @@ The official and default interface is [Hyprland](https://github.com/hyprwm/Hyprl
 >
 > > - AUR `input-remapper-git`
 >
-> > Note: Run `input-remapper-gtk` and configure your peripherals
+> > Note: Run `input-remapper-gtk` and configure your peripherals, if the defaults are not enough
 
 ---
 
