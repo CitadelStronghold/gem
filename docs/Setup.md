@@ -135,11 +135,6 @@
 
 ---
 
-> passwd
-- Root user password
-
----
-
 > useradd -m -g users -G wheel \<username\>
 - -m makes a home
 - -g is initial group
@@ -266,7 +261,13 @@
 
 # Disable Root User Login
 
+## Pick One
+
+> passwd
+- Set root user password
+
 > passwd -l root
+- Disable root user login
 
 ---
 
