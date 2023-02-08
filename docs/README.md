@@ -348,7 +348,7 @@ The official and default interface is [Hyprland](https://github.com/hyprwm/Hyprl
 >
 > > [nvm](https://github.com/nvm-sh/nvm)
 >
-> > `nvm install 18`
+> > `nvm i 18`
 
 ---
 
