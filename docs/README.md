@@ -223,13 +223,13 @@ The official and default interface is [Hyprland](https://github.com/hyprwm/Hyprl
 >
 > > Note: If you do not want Chrome scaling, adjust it via `gem c hypr`
 >
-> > Google Chrome
+> > AUR `google-chrome`
 
 ---
 
 > > **gem s [code](https://github.com/microsoft/vscode)**
 >
-> > Visual Studio Code, Variant AUR `google-chrome`
+> > Visual Studio Code, AUR `visual-studio-code-bin`
 >
 > > Depends on `gem s chrome` for web authentication
 >
