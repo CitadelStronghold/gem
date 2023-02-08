@@ -201,6 +201,14 @@ The official and default interface is [Hyprland](https://github.com/hyprwm/Hyprl
 
 ---
 
+> > **gem s [remapper](https://github.com/sezanzeb/input-remapper.git)**
+>
+> > - AUR `input-remapper-git`
+>
+> > Note: Run `input-remapper-gtk` and configure your peripherals, if the defaults are not enough
+
+---
+
 > > **gem s chrome**
 >
 > > Note: You will have to manually adjust the download folder to the lower-case variant
@@ -318,14 +326,6 @@ The official and default interface is [Hyprland](https://github.com/hyprwm/Hyprl
 > > **gem s vlc**
 >
 > > - `vlc`
-
----
-
-> > **gem s [remapper](https://github.com/sezanzeb/input-remapper.git)**
->
-> > - AUR `input-remapper-git`
->
-> > Note: Run `input-remapper-gtk` and configure your peripherals, if the defaults are not enough
 
 ---
 
