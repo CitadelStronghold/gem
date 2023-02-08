@@ -52,7 +52,7 @@ The official and default interface is [Hyprland](https://github.com/hyprwm/Hyprl
     - `git config --global user.name "Name"`
 1. Configure monitors from `gem c hypr`
 1. Go through the gems below and install as needed
-1. `gem reboot`
+1. `reboot`
     - Select Hyprland in the dropdown
 
 ## Philosophy
