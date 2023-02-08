@@ -212,6 +212,12 @@ The official and default compositor is [Hyprland](https://github.com/hyprwm/Hypr
 
 ---
 
+> > **gem s [bitwarden](https://bitwarden.com)**
+>
+> > Installs BitWarden
+
+---
+
 > > **gem s chrome**
 >
 > > Note: You will have to manually adjust the download folder to the lower-case variant
@@ -264,12 +270,6 @@ The official and default compositor is [Hyprland](https://github.com/hyprwm/Hypr
 > > **gem s [joplin](https://joplinapp.org)**
 >
 > > Installs Joplin
-
----
-
-> > **gem s [bitwarden](https://bitwarden.com)**
->
-> > Installs BitWarden
 
 ---
 
