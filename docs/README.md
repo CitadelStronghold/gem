@@ -378,9 +378,9 @@ The official and default interface is [Hyprland](https://github.com/hyprwm/Hyprl
 >
 > > Note: Establishes auto-backup functionality. The gem will need to be customized to use your own repository beforehand if you want git backups to work.
 >
-> > Note: You may have to reboot before you can sign in
+> > Note: You may have to reboot before you can sign in.
 >
-> > Note: Be sure to export a backup once signed in, then reboot in order to auto-backup
+> > Note: Be sure to export a backup once signed in, then reboot in order to hook the backup file and perform auto-backups.
 
 ---
 
