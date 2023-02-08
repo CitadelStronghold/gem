@@ -47,12 +47,12 @@ The official and default interface is [Hyprland](https://github.com/hyprwm/Hyprl
 1. Install the fonts: `gem s fonts`
 1. Reboot
     - Select Hyprland in the dropdown
-1. Go through the gems below and install as needed
 1. Configure `git`
     - `git config --global user.email "you@example.com"`
     - `git config --global user.name "Name"`
-1. Reboot again
 1. Configure monitors from `gem c hypr`
+1. Go through the gems below and install as needed
+1. Reboot again
 
 ## Philosophy
 
@@ -221,7 +221,7 @@ The official and default interface is [Hyprland](https://github.com/hyprwm/Hyprl
 >
 > > Note: You will have to go to `chrome://flags` and manually enable GPU rendering
 >
-> > Note: If you do not want Chrome scaling, adjust it via `gem c hypr`
+> > Note: To further adjust scaling, use `gem c hypr`
 >
 > > AUR `google-chrome`
 
