@@ -374,7 +374,7 @@ The official and default interface is [Hyprland](https://github.com/hyprwm/Hyprl
 
 > > **gem s [brisqi](https://brisqi.com)**
 >
-> > Note: Additionally, establish backups.
+> > Note: Establishes auto-backup functionality. The gem would need to be customized to use your own repository beforehand.
 
 ---
 
