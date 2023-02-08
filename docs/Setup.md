@@ -272,6 +272,5 @@
 # Done
 
 > exit
-- Be sure not to install further gems under `sudo su`, as this will cause problems
-
-- Continue [original instructions](https://github.com/GeodeGames/gem#installation)
+1. Be sure not to install further gems under `sudo su`, as this will cause problems
+1. Continue with [original instructions](https://github.com/GeodeGames/gem#installation)
