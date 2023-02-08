@@ -52,8 +52,8 @@ The official and default compositor is [Hyprland](https://github.com/hyprwm/Hypr
     - `git config --global user.name "Name"`
 1. `reboot`
     - Select Hyprland in the dropdown
-1. Go through the gems below and install as needed
 1. Configure monitors via `gem c hypr`
+1. Go through the gems below and install as needed
 1. Reboot (`gem reboot` or `reboot`)
 
 ## Philosophy
