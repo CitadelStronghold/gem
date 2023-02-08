@@ -42,6 +42,8 @@ The official and default interface is [Hyprland](https://github.com/hyprwm/Hyprl
         - Remove `kms` from hooks
     - `gem c grub`
         - Change `GRUB_CMDLINE_LINUX=""` to `GRUB_CMDLINE_LINUX="nvidia-drm.modeset=1"`
+    - `sudo ln -s /dev/null /etc/udev/rules.d/61-gdm.rules`
+        - Critical to get GDM to use Wayland properly
 1. Install the gui gem: `gem s gui`
 1. Install the gui config defaults: `gem s config/gui`
 1. Install the fonts: `gem s fonts`
