@@ -291,7 +291,7 @@ The official and default interface is [Hyprland](https://github.com/hyprwm/Hyprl
 
 ---
 
-> > **gem s obs**
+> > ~~**gem s obs**~~
 >
 > > **Not working!**
 >
