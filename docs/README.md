@@ -211,6 +211,8 @@ The official and default interface is [Hyprland](https://github.com/hyprwm/Hyprl
 >
 > > Note: You will have to go to `chrome://flags` and manually disable smooth scrolling
 >
+> > Note: You will have to go to `chrome://flags` and manually enable GPU rendering
+>
 > > Note: If you do not want Chrome scaling, adjust it via `gem c hypr`
 >
 > > Google Chrome
