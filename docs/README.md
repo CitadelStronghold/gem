@@ -6,7 +6,7 @@ A base installation is exactly the same as Arch Linux.
 
 Extra functionality is then added through the use of the `gem` command.
 
-The official and default interface is [Hyprland](https://github.com/hyprwm/Hyprland.git).
+The official and default compositor is [Hyprland](https://github.com/hyprwm/Hyprland.git).
 
 ## Example
 
@@ -444,7 +444,7 @@ The official and default interface is [Hyprland](https://github.com/hyprwm/Hyprl
 
 > > **gem s gui**
 >
-> > 1. Install Hyprland interface and other GUI tools
+> > 1. Install Hyprland and other GUI tools
 >
 > > Note: Try to do this while you are not running the `Hyprland` binary...
 
