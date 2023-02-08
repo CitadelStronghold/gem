@@ -233,8 +233,6 @@
 # Swap Partition (Not Strictly Necessary)
 - Swap files can be altered without editing partition table
 
-> su
-
 > cd /root
 
 > dd if=/dev/zero of=/swapfile bs=1M count=2048 status=progress
@@ -272,5 +270,8 @@
 ---
 
 # Done
+
+> exit
+- Be sure not to install further gems under `sudo su`, as this will cause problems
 
 - Continue [original instructions](https://github.com/GeodeGames/gem#installation)
