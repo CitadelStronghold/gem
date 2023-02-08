@@ -225,6 +225,8 @@ The official and default compositor is [Hyprland](https://github.com/hyprwm/Hypr
 >
 > > Note: You will have to sign in to sync
 >
+> > Note: You will have to sign in to your extension accounts once synced
+>
 > > Note: You will have to go to `chrome://flags` and manually disable smooth scrolling
 >
 > > Note: You will have to go to `chrome://flags` and manually enable GPU rendering
