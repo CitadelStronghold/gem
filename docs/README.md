@@ -336,7 +336,7 @@ The official and default interface is [Hyprland](https://github.com/hyprwm/Hyprl
 >
 > > 3. Set `Settings` > `Spotify` > `Configuration` > `Use global config` to `true`
 >
-> > 4. Configure `~/.config/spotifyd/spotifyd.conf`
+> > 4. Configure credentials via `gem c spotify`
 
 ---
 
