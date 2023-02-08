@@ -197,8 +197,8 @@ The official and default interface is [Hyprland](https://github.com/hyprwm/Hyprl
 
 > > **gem s zsh**
 >
-> > `zsh`
-> > AUR `zsh-theme-powerlevel10k-git`
+> > - `zsh`
+> > - AUR `zsh-theme-powerlevel10k-git`
 >
 > > Note: Must be installed from within a terminal in Hyprland, in order to have access to the correct font.
 
@@ -228,7 +228,7 @@ The official and default interface is [Hyprland](https://github.com/hyprwm/Hyprl
 >
 > > Note: To further adjust scaling, use `gem c hypr`
 >
-> > AUR `google-chrome`
+> > - AUR `google-chrome`
 
 ---
 
@@ -289,7 +289,7 @@ The official and default interface is [Hyprland](https://github.com/hyprwm/Hyprl
 >
 > > **Not working!**
 >
-> > `flameshot`
+> > - `flameshot`
 
 ---
 
@@ -297,7 +297,7 @@ The official and default interface is [Hyprland](https://github.com/hyprwm/Hyprl
 >
 > > **Not working!**
 >
-> > `obs-studio`
+> > - `obs-studio`
 
 ---
 
@@ -342,7 +342,7 @@ The official and default interface is [Hyprland](https://github.com/hyprwm/Hyprl
 
 > > **gem s veracrypt**
 >
-> > `veracrypt`
+> > - `veracrypt`
 
 ---
 
@@ -356,13 +356,13 @@ The official and default interface is [Hyprland](https://github.com/hyprwm/Hyprl
 
 > > **gem s docker**
 >
-> > `docker`
+> > - `docker`
 
 ---
 
 > > **gem s clang**
 >
-> > `clang`
+> > - `clang`
 
 ---
 
