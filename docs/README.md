@@ -223,6 +223,8 @@ The official and default interface is [Hyprland](https://github.com/hyprwm/Hyprl
 >
 > > Note: You will have to go to `chrome://flags` and manually enable GPU rendering
 >
+> > Note: You will have to sign in to sync
+>
 > > Note: To further adjust scaling, use `gem c hypr`
 >
 > > AUR `google-chrome`
