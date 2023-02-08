@@ -113,6 +113,10 @@
 
 ---
 
+> pacman -S sudo
+
+---
+
 > pacman -S lvm2 helix
 - `lvm2` is required regardless of partitioning setup type
 
@@ -135,8 +139,6 @@
 - Root user password
 
 ---
-
-> pacman -S sudo
 
 > useradd -m -g users -G wheel \<username\>
 - -m makes a home
