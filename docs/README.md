@@ -232,7 +232,7 @@ The official and default interface is [Hyprland](https://github.com/hyprwm/Hyprl
 
 > > **gem s [code](https://github.com/microsoft/vscode)**
 >
-> > Visual Studio Code, AUR `visual-studio-code-bin`
+> > AUR `visual-studio-code-bin`
 >
 > > Depends on `gem s chrome` for web authentication
 >
