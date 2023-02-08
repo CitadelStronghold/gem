@@ -5,8 +5,8 @@
 # Partitioning
 
 > fdisk -l
-- List disks
-- Note your disk you want to install to: /dev/sda
+- Lists disks
+- Note your disk you want to install to: `/dev/sda`
 
 > fdisk /dev/sda
 
