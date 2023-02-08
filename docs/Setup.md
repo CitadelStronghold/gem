@@ -123,7 +123,7 @@
 > gem c init
 - Find `HOOKS=`
 - Add `lvm2` between `block` and `filesystems`
-- Automatically rebuilds for `-p linux` and (maybe) `-p linux-lts`
+- Automatically rebuilds `linux` and / or `linux-lts` ramdisk environments when editor is closed
 
 ---
 
