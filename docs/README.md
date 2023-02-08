@@ -47,14 +47,13 @@ The official and default interface is [Hyprland](https://github.com/hyprwm/Hyprl
 1. Install the gui gem: `gem s gui`
 1. Install the gui config defaults: `gem s config/gui`
 1. Install the fonts: `gem s fonts`
-1. Reboot
-    - Select Hyprland in the dropdown
 1. Configure `git`
     - `git config --global user.email "you@example.com"`
     - `git config --global user.name "Name"`
 1. Configure monitors from `gem c hypr`
 1. Go through the gems below and install as needed
-1. Reboot again
+1. `gem reboot`
+    - Select Hyprland in the dropdown
 
 ## Philosophy
 
