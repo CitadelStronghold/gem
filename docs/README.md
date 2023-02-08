@@ -243,7 +243,7 @@ The official and default compositor is [Hyprland](https://github.com/hyprwm/Hypr
 
 > > **gem s [code](https://github.com/microsoft/vscode)**
 >
-> > AUR `visual-studio-code-bin`
+> > - AUR `visual-studio-code-bin`
 >
 > > Depends on `gem s chrome` for web authentication
 >
