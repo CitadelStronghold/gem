@@ -4,7 +4,7 @@
 # will be translated on a per-path-element basis into the users locale
 
 DOWNLOAD=downloads
-DOCUMENTS=work
+# DOCUMENTS=work # Did not work
 
 # DESKTOP=desktop
 # TEMPLATES=templates
