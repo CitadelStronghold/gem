@@ -117,8 +117,8 @@
 - `lvm2` is required regardless of partitioning setup type
 
 > gem c init
-- Find HOOKS=
-- Add lvm2 between block and filesystems
+- Find `HOOKS=`
+- Add `lvm2` between `block` and `filesystems`
 - Automaticall rebuilds for `-p linux` and (maybe) `-p linux-lts`
 
 ---
