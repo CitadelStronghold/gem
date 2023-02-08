@@ -326,6 +326,12 @@ The official and default interface is [Hyprland](https://github.com/hyprwm/Hyprl
 
 ---
 
+> > **gem s 7zip**
+>
+> > - AUR `7-zip`
+
+---
+
 > > **gem s spotify**
 >
 > > [spotify-qt](https://github.com/kraxarn/spotify-qt)
