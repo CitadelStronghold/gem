@@ -50,10 +50,10 @@ The official and default interface is [Hyprland](https://github.com/hyprwm/Hyprl
 1. Configure `git`
     - `git config --global user.email "you@example.com"`
     - `git config --global user.name "Name"`
-1. Configure monitors from `gem c hypr`
-1. Go through the gems below and install as needed
 1. `reboot`
     - Select Hyprland in the dropdown
+1. Go through the gems below and install as needed
+1. Configure monitors from `gem c hypr`
 
 ## Philosophy
 
@@ -199,6 +199,8 @@ The official and default interface is [Hyprland](https://github.com/hyprwm/Hyprl
 >
 > > `zsh`
 > > AUR `zsh-theme-powerlevel10k-git`
+>
+> > Note: Must be installed from within a terminal in Hyprland, in order to have access to the correct font.
 
 ---
 
