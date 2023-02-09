@@ -44,6 +44,9 @@ The official and default compositor is [Hyprland](https://github.com/hyprwm/Hypr
         - Change `GRUB_CMDLINE_LINUX=""` to `GRUB_CMDLINE_LINUX="nvidia-drm.modeset=1"`
     - `sudo ln -s /dev/null /etc/udev/rules.d/61-gdm.rules`
         - [Critical to getting GDM to use Wayland properly](https://wiki.archlinux.org/title/GDM#Wayland_and_the_proprietary_NVIDIA_driver)
+1. If you have console spam related to PCIE errors
+    - `gem c grub`
+        - Add `pci=noaer` into `GRUB_CMDLINE_LINUX`
 1. Install the gui gem: `gem s gui`
 1. Install the gui config defaults: `gem s config/gui`
 1. Install the fonts: `gem s fonts`
