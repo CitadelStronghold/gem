@@ -360,6 +360,8 @@ The official and default compositor is [Hyprland](https://github.com/hyprwm/Hypr
 > > [nvm](https://github.com/nvm-sh/nvm)
 >
 > > `nvm i 18`
+>
+> > `npm i -g npm`
 
 ---
 
