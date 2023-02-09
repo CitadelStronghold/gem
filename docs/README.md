@@ -288,6 +288,8 @@ The official and default compositor is [Hyprland](https://github.com/hyprwm/Hypr
 > > **gem s vmware**
 >
 > > Installs VMware Workstation Pro
+>
+> > **You will have to reboot prior to using, so the keyring API gets initialized**
 
 ---
 
