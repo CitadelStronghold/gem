@@ -44,7 +44,7 @@
 
 > w
 
-- Note your new partitions as they are needed below
+- Note your new partitions, as they are needed below
 - IE `/dev/sda1`, `/dev/sda2`
 
 **Also you may use `cfdisk`**
