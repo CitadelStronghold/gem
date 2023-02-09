@@ -386,6 +386,12 @@ The official and default compositor is [Hyprland](https://github.com/hyprwm/Hypr
 
 ---
 
+> > **gem s sysbench**
+>
+> > - `sysbench`
+
+---
+
 > > **gem s [numlock](https://wiki.archlinux.org/title/Activating_numlock_on_bootup)**
 >
 > > - AUR `mkinitcpio-numlock`
