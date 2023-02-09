@@ -92,7 +92,7 @@
 # Gem
 
 > gem
-- Updates gem in case you have an outdated ISO
+- Updates gem in case anything changed since the ISO was downloaded
 
 > gem install /mnt
 - Installs [gem](https://github.com/GeodeGames/gem) scripts into `/mnt/opt/gem`
