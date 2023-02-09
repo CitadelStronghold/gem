@@ -285,6 +285,12 @@ The official and default compositor is [Hyprland](https://github.com/hyprwm/Hypr
 
 ---
 
+> > **gem s 7zip**
+>
+> > - AUR `7-zip`
+
+---
+
 > > **gem s vmware**
 >
 > > Installs VMware Workstation Pro
@@ -331,12 +337,6 @@ The official and default compositor is [Hyprland](https://github.com/hyprwm/Hypr
 > > **gem s vlc**
 >
 > > - `vlc`
-
----
-
-> > **gem s 7zip**
->
-> > - AUR `7-zip`
 
 ---
 
