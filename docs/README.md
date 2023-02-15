@@ -120,6 +120,16 @@ The official and default compositor is [Hyprland](https://github.com/hyprwm/Hypr
 
 ---
 
+### d
+
+---
+
+> > **gem d**
+>
+> > Duplicate terminal
+
+---
+
 ### c
 
 ---
