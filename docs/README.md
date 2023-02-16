@@ -298,6 +298,12 @@ The official and default compositor is [Hyprland](https://github.com/hyprwm/Hypr
 
 ---
 
+> > **gem s [cloc](https://github.com/AlDanial/cloc.git)**
+>
+> > - `cloc`
+
+---
+
 > > **gem s cute**
 >
 > > - AUR `cbonsai`
