@@ -434,6 +434,14 @@ The official and default compositor is [Hyprland](https://github.com/hyprwm/Hypr
 
 ---
 
+> > **gem s input**
+>
+> > - `libinput`
+>
+> > Note: Patched with higher debounce time. Use the default that is installed automatically otherwise.
+
+---
+
 > > **gem s [numlock](https://wiki.archlinux.org/title/Activating_numlock_on_bootup)**
 >
 > > - AUR `mkinitcpio-numlock`
