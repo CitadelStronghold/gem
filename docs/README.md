@@ -232,6 +232,24 @@ The official and default compositor is [Hyprland](https://github.com/hyprwm/Hypr
 
 ---
 
+> > **gem s firefox**
+>
+> > Note: You will have to manually adjust the download folder to the lower-case variant
+>
+> > `about:preferences#general`: Set as default, configure: `startup`, `dark mode`, `fonts`, `smooth scrolling`
+>
+> > `about:preferences#home`: Disable `Shortcuts`, `Pocket`
+>
+> > `about:preferences#privacy`: Disable `Ask to save...`, Disable `Autofill`, Disable `Suggestions from Sponsors`0
+>
+> > Note: Enable Sync
+
+> > Install userstyles
+>
+> > - `firefox`
+
+---
+
 > > **gem s chrome**
 >
 > > Note: You will have to manually adjust the download folder to the lower-case variant
