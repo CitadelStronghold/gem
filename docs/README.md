@@ -438,7 +438,7 @@ The official and default compositor is [Hyprland](https://github.com/hyprwm/Hypr
 >
 > > - `libinput`
 >
-> > Note: Patched with higher debounce time. Use the default that is installed automatically otherwise.
+> > Note: Patched with higher debounce time. You should use the default that is installed automatically otherwise.
 
 ---
 
