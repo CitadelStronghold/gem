@@ -363,6 +363,7 @@ The official and default compositor is [Hyprland](https://github.com/hyprwm/Hypr
 > > - `slurp`
 > > - `swappy`
 > > - `wl-clipboard`
+> > - `imagemagick`
 
 ---
 
@@ -537,6 +538,9 @@ The only supported architecture at present is `x86_64`.
 
 - Foot Terminal Copy Paste
     - <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>C</kbd> / <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>V</kbd>
+
+- Find a Binary
+    - `sudo pacman -Fy <package>`
 
 ## Resources
 
