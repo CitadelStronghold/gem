@@ -112,8 +112,7 @@
 > pacman -S linux-lts linux-lts-headers
 - Pick one of the above lines, or do both based on your desired stability
 - Having multiple kernels can save you if something is incompatible with the newer one
-- You may select which one at boot
-- **Some devices tested had critical failures and only worked reliably with `linux-lts`**
+- You can configure which one to boot
 - *Accept the default package provider*
 
 ---
