@@ -435,6 +435,12 @@ The official and default compositor is [Hyprland](https://github.com/hyprwm/Hypr
 
 ---
 
+> > **gem s valgrind**
+>
+> > - `valgrind`
+
+---
+
 > > **gem s input**
 >
 > > - `libinput`
