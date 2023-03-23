@@ -215,6 +215,8 @@ The official and default compositor is [Hyprland](https://github.com/hyprwm/Hypr
 > > - AUR `zsh-theme-powerlevel10k-git`
 >
 > > Note: Must be installed from within a terminal in Hyprland, in order to have access to the correct font
+>
+> > Note: You may need to reinstall `nvm` into `zsh`
 
 ---
 
