@@ -325,6 +325,15 @@ The official and default compositor is [Hyprland](https://github.com/hyprwm/Hypr
 
 ---
 
+
+> > **gem s [signal](https://signal.org)**
+>
+> > Installs Signal
+>
+> > `signal-desktop`
+
+---
+
 > > **gem s 7zip**
 >
 > > - AUR `7-zip`
