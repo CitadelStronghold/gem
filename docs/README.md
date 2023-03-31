@@ -321,7 +321,7 @@ The official and default compositor is [Hyprland](https://github.com/hyprwm/Hypr
 
 > > **gem s [discord](https://discord.com)**
 >
-> > Installs Discord
+> > `discord`
 
 ---
 
