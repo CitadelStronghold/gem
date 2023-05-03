@@ -457,6 +457,8 @@ The official and default compositor is [Hyprland](https://github.com/hyprwm/Hypr
 > > - `zathura`
 >
 > > - `zathura-pdf-mupdf`
+>
+> > Note: Use `<Number>`, `Shift + G` to go to a specific page
 
 ---
 
