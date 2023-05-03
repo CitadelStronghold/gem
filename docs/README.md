@@ -452,6 +452,14 @@ The official and default compositor is [Hyprland](https://github.com/hyprwm/Hypr
 
 ---
 
+> > **gem s pdf**
+>
+> > - `zathura`
+>
+> > - `zathura-pdf-mupdf`
+
+---
+
 > > **gem s input**
 >
 > > - `libinput`
