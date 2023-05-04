@@ -462,6 +462,14 @@ The official and default compositor is [Hyprland](https://github.com/hyprwm/Hypr
 
 ---
 
+> > **gem s postgres**
+>
+> > - `postgresql`
+>
+> > - `postgresql-libs`
+
+---
+
 > > **gem s input**
 >
 > > - `libinput`
