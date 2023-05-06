@@ -1,4 +1,4 @@
-# Gem
+# Gem Linux
 
 Gem is an Arch Linux ISO distribution with convenient configuration scripts.
 
