@@ -222,9 +222,11 @@ The official and default compositor is [Hyprland](https://github.com/hyprwm/Hypr
 
 > > **gem s [remapper](https://github.com/sezanzeb/input-remapper.git)**
 >
-> > - AUR `input-remapper-git`
+> > - AUR `keyd`
 >
-> > Note: Run `input-remapper-gtk` and configure your peripherals, if the defaults are not enough
+> > Note: Use `keyd -m` to identify keys and devices
+>
+> > Note: Use `gem c keyd` to modify the config
 
 ---
 
