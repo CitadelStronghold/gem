@@ -152,18 +152,6 @@ The official and default compositor is [Hyprland](https://github.com/hyprwm/Hypr
 
 ---
 
-> > **gem c rofi**
->
-> > Modify rofi config
-
----
-
-> > **gem c rofimoji**
->
-> > Modify rofimoji config
-
----
-
 > > **gem c init**
 >
 > > Modify `/etc/mkinitcpio.conf`, then runs `mkinitcpio -P` for you
