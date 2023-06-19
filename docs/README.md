@@ -350,7 +350,7 @@ The official and default compositor is [Hyprland](https://github.com/hyprwm/Hypr
 >
 > > **Not working!**
 >
-> > - `obs-studio`
+> > - AUR `obs-studio`
 
 ---
 
