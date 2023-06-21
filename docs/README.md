@@ -560,7 +560,7 @@ The only supported architecture at present is `x86_64`.
 
 ## **Other Notes**
 
-- [No Sudo Delay on Failure](https://unix.stackexchange.com/a/213668)
+- [No Sudo Delay on Failure](https://unix.stackexchange.com/a/734925)
 
 - Foot Terminal Copy Paste
     - <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>C</kbd> / <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>V</kbd>
