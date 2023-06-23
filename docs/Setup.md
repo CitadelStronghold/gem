@@ -37,7 +37,8 @@
 - Enter
 - 44
     - Changed type to 'Linux LVM'
-    - There are no downsides to using the LVM type
+    - There are no real downsides to using the LVM type
+    - If the number has changed from `44`, figure out what it is now and use it
 
 > p
 - You see 'EFI System', 'Linux LVM'
