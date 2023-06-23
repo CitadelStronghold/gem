@@ -327,14 +327,6 @@ The official and default compositor is [Hyprland](https://github.com/hyprwm/Hypr
 
 ---
 
-> > ~~**gem s [flameshot](https://flameshot.org)**~~
->
-> > **Not working!**
->
-> > - `flameshot`
-
----
-
 > > ~~**gem s obs**~~
 >
 > > **Not working!**
