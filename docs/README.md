@@ -329,8 +329,6 @@ The official and default compositor is [Hyprland](https://github.com/hyprwm/Hypr
 
 > > ~~**gem s obs**~~
 >
-> > **Not working!**
->
 > > - `obs-studio`
 > > - `v4l2loopback-dkms`
 
