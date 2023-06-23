@@ -185,6 +185,7 @@
 - Errors are normal here
 
 > reboot
+- Remove your installation medium
 
 ---
 
