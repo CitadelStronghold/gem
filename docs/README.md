@@ -446,7 +446,7 @@ The official and default compositor is [Hyprland](https://github.com/hyprwm/Hypr
 > >
 > > 1. `gem c init`
 >
-> > 2. Add `numlock` (Before encrypt, if you have it)
+> > 2. Add `numlock` to `HOOKS` (Before encrypt, if you have it)
 
 ---
 
