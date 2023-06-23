@@ -9,7 +9,7 @@
 - Note your disk you want to install to
 - IE `/dev/sda`
 
-> fdisk <disk>
+> fdisk \<disk\>
 
 > p
 
@@ -52,11 +52,11 @@
 
 ---
 
-> mkfs.fat -F32 <disk_partition_1>
+> mkfs.fat -F32 \<disk_partition_1\>
 
-> pvcreate --dataalignment 1m <disk_partition_2>
+> pvcreate --dataalignment 1m \<disk_partition_2\>
 
-> vgcreate volgroup0 <disk_partition_2>
+> vgcreate volgroup0 \<disk_partition_2\>
 
 ---
 
@@ -157,7 +157,7 @@
 
 > mkdir /boot/EFI
 
-> mount <disk_partition_1> /boot/EFI
+> mount \<disk_partition_1\> /boot/EFI
 
 > grub-install --target=x86_64-efi --bootloader-id=grub_uefi --recheck
 
