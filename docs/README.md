@@ -8,7 +8,7 @@ Extra functionality is then added through the use of the `gem` command.
 
 The official and default compositor is [Hyprland](https://github.com/hyprwm/Hyprland.git).
 
-The aim is to create a fully reproducible operating system so that manual backups are not necessary.
+The aim is to create a fully reproducible operating system so that backups are not necessary.
 
 ## Example
 
