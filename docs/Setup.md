@@ -49,7 +49,7 @@
 - IE `/dev/sda1`, `/dev/sda2`
 
 **Also you may use `cfdisk`**
-[Further Guide](networklessons.com/uncategorized/extend-lvm-partition)
+[Other Guide](networklessons.com/uncategorized/extend-lvm-partition)
 
 ---
 
