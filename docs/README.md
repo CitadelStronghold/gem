@@ -360,6 +360,8 @@ The official and default compositor is [Hyprland](https://github.com/hyprwm/Hypr
 
 > > **gem s spotify**
 >
+> > You may want to disable song notifications in the settings
+>
 > > AUR `spotify-launcher`
 
 ---
