@@ -66,7 +66,7 @@
 > lvcreate -L 24GB volgroup0 -n lv_root
 - `pacman` will store packages here, you need some space
 - You can purge /var/cache/pacman/pkg/ if you run out
-- See below for automatic cleaning of this
+- `pacman` gem installs a self-cleaning mechanism to help with this
 
 > lvcreate -l 100%FREE volgroup0 -n lv_home
 
