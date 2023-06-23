@@ -150,7 +150,7 @@
 > passwd \<username\>
 
 > EDITOR=helix visudo
-- Uncomment the first "%wheel ALL=..." line
+- Uncomment the first `%wheel ALL=...` line
 - Add `Defaults timestamp_timeout=60`
     - This makes a password only be required each hour for `sudo`
 
