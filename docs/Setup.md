@@ -35,7 +35,7 @@
 
 > t
 - Enter
-- 43
+- 44
     - Changed type to 'Linux LVM'
     - There are no downsides to using the LVM type
 
