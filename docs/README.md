@@ -215,9 +215,7 @@ The official and default compositor is [Hyprland](https://github.com/hyprwm/Hypr
 
 > > **gem s firefox**
 >
-> > Note: You will have to manually adjust the download folder to the lower-case variant
->
-> > Note: You need to adjust the downloads folder
+> > Note: You need to adjust the downloads folder, as it defaults to the uppercase variant
 >
 > > `about:preferences#general`: Set as default, configure: `startup`, `dark mode`, `fonts`, `smooth scrolling`
 >
