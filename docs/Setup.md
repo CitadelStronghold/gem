@@ -238,7 +238,7 @@
 > pacman -S intel-ucode
 - Pick one of the above lines
 
-# Swap Partition (Not Strictly Necessary)
+# Swap Partition (Optional, Do you have enough memory?)
 - Swap files can be altered without editing partition table
 
 > cd /root
