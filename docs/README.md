@@ -259,13 +259,13 @@ The official and default compositor is [Hyprland](https://github.com/hyprwm/Hypr
 >
 > > - AUR `visual-studio-code-bin`
 >
-> > Depends on `gem s chrome` for web authentication
+> > Depends on a browser for web authentication
 >
 > > Note: You will have to enter your `Monokai Pro` key again, if you have one
 >
 > > Note: You will have to sign in to `TabNine Pro`, if you use it
 >
-> > Note: You will also likely need `gem s clang`
+> > Note: You also may need `gem s clang`
 
 ---
 
