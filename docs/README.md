@@ -22,9 +22,6 @@ The official and default compositor is [Hyprland](https://github.com/hyprwm/Hypr
 
 # Install BTOP
 > gem s btop
-
-# Undo the pacman configuration changes
-> gem r config/pacman
 ```
 
 ## Installation
@@ -62,8 +59,6 @@ The official and default compositor is [Hyprland](https://github.com/hyprwm/Hypr
 ## Philosophy
 
 1. Multiple runs of a script produce the same result as a single run
-1. All scripts come with uninstall functionality, to undo their changes
-    - This is only partially supported, because some gems share dependencies
 1. Scope of a script is as limited as possible
 1. All extended functionality is derived from a single command, `gem`
 1. Any configuration changes that scripts make should be printed
@@ -93,12 +88,6 @@ The official and default compositor is [Hyprland](https://github.com/hyprwm/Hypr
 > > **gem s \<name\>**
 >
 > > Install a gem
-
----
-
-> > **gem r \<name\>**
->
-> > Uninstall a gem
 
 ---
 
