@@ -360,15 +360,7 @@ The official and default compositor is [Hyprland](https://github.com/hyprwm/Hypr
 
 > > **gem s spotify**
 >
-> > [spotify-qt](https://github.com/kraxarn/spotify-qt)
->
-> > 1. Set `Settings` > `Spotify` > `General` to `/usr/bin/spotifyd`
->
-> > 2. Set `Settings` > `Spotify` > `General` > `Start with app` to `true`
->
-> > 3. Set `Settings` > `Spotify` > `Configuration` > `Use global config` to `true`
->
-> > 4. Configure credentials via `gem c spotify`
+> > AUR `spotify-launcher`
 
 ---
 
