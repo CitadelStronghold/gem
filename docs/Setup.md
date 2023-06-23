@@ -55,6 +55,8 @@
 
 > mkfs.fat -F32 \<disk_partition_1\>
 
+---
+
 > pvcreate --dataalignment 1m \<disk_partition_2\>
 
 > vgcreate volgroup0 \<disk_partition_2\>
