@@ -324,6 +324,8 @@ The aim is to create a fully reproducible operating system so that backups are n
 > > Installs VMware Workstation Pro
 >
 > > **You will have to reboot prior to using, so the keyring API gets initialized**
+>
+> > You may have to run an X11 desktop and call `vmware` manually as root once
 
 ---
 
