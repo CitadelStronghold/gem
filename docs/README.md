@@ -266,6 +266,8 @@ The aim is to create a fully reproducible operating system so that backups are n
 > > Note: You will have to sign in to `TabNine Pro`, if you use it
 >
 > > Note: You also may need `gem s clang`
+>
+> > Note: You will need to add this to your `settings.json` to get `zsh` to work properly in the debug environment (IE `npm` is not found without this change)
 
 ---
 

@@ -1,0 +1,11 @@
+{
+    "terminal.integrated.profiles.linux": {
+        "bash": {
+            "path": "zsh",
+            "icon": "terminal-bash",
+            "args": [
+                "-i"
+            ]
+        }
+    }
+}
