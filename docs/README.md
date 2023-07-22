@@ -321,6 +321,13 @@ The aim is to create a fully reproducible operating system so that backups are n
 
 ---
 
+> > **gem s python**
+>
+> > - `python3`
+> > - `python-pip`
+
+---
+
 > > **gem s vmware**
 >
 > > Installs VMware Workstation Pro
