@@ -127,7 +127,7 @@
 > pacman -S lvm2 helix
 - `lvm2` is required regardless of partitioning setup type
 
-> gem c init
+> gem c init (`(sudo $GEM_EDITOR /etc/mkinitcpio.conf) && (sudo mkinitcpio -P)`)
 - Find `HOOKS=`
 - Add `lvm2` between `block` and `filesystems`
 - Automatically rebuilds `linux` and / or `linux-lts` ramdisk environments when editor is closed
@@ -169,13 +169,13 @@
 
 > cp /usr/share/locale/en\@quot/LC_MESSAGES/grub.mo /boot/grub/locale/en.mo
 
-> gem c grub (Or `gem s config/grub` if you have no configuration changes)
+> gem c grub (Or `gem s config/grub` if you have no configuration changes) (`(sudo $GEM_EDITOR /etc/default/grub) && (gem s config/grub)`) (`sudo grub-mkconfig -o /boot/grub/grub.cfg`)
 
 ---
 
-> gem s base
+> gem s base (`sudo pacman -S git neovim helix base-devel man-db linux-firmware bolt`)
 
-> gem s net/core
+> gem s net/core (`sudo pacman -S networkmanager && sudo systemctl enable NetworkManager`)
 
 > gem s net/wifi
 - Optional
@@ -197,6 +197,9 @@
 ---
 
 > gem s dev
+
+- (`sudo pacman -S git neovim helix which tree ninja cmake make wget unzip fuse2 base-devel cargo jq xorg-xeyes rsync zip ffmpeg`)
+- (`git clone https://aur.archlinux.org/paru.git && cd paru && makepkg -si`)
 
 ---
 
