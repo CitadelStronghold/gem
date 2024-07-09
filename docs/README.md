@@ -226,6 +226,8 @@ The aim is to create a fully reproducible operating system so that backups are n
 > > `about:preferences#privacy`: Disable `Ask to save...`, Disable `Autofill`, Disable `Suggestions from Sponsors`0
 >
 > > Note: Enable Sync
+>
+> > Fix your performance with `https://www.reddit.com/r/firefox/comments/tzqa7u/awful_performance_on_x11_with_nvidia_affecting/`
 
 > > Install userstyles
 >
